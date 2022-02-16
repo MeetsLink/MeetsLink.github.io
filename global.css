@@ -1395,6 +1395,13 @@ p {
     margin-right: 1em;
 }
 
+.downloads {
+    /* align to center */
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
 #footer-links {
     position: absolute;
     bottom: 0px;
