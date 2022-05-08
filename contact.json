@@ -2,10 +2,12 @@
   "urls": [
     {
       "platform": "ios",
+      "type": "qq",
       "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=429468202&key=0fcd73f449184f6911093f5d200d03e72fe8ba790239c37a132bed82f0e50443&card_type=group&source=external&jump_from=webapi"
     },
     {
       "platform": "android",
+      "type": "qq",
       "url": "mqqopensdkapi://bizAgent/qm/qr?url=http%3A%2F%2Fqm.qq.com%2Fcgi-bin%2Fqm%2Fqr%3Ffrom%3Dapp%26p%3Dandroid%26jump_from%3Dwebapi%26k%3DJikSrs0_RKMAK35uDB0rD2eSr5sj7gvJ"
     }
   ]
