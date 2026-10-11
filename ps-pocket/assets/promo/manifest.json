@@ -1,0 +1,50 @@
+{
+  "source_package": "Ps-Pocket-App-Store-2026-10-10-lively-r6-editable.zip",
+  "adapted_at": "2026-10-11",
+  "game_content": "Original practice firmware, actual App game screen crops.",
+  "composition": "Borderless product page: oversized type, layered vector devices, alternating full-width scenes, and a warm charcoal LCD detail section. Original screenshot pixels are unchanged.",
+  "screen_pixels_modified": false,
+  "assets": [
+    {
+      "file": "iphone-screen.png",
+      "sha256": "041e86b8e05c273f796b6f66f898d40f7b6a68a6b62c8c2c0965d2917d84306b"
+    },
+    {
+      "file": "iphone-multi-screen-1.png",
+      "sha256": "5d1449e1f95ced4db6757494cd70d1653b13d39d1c5400ffcf8cbcc90fdaba4a"
+    },
+    {
+      "file": "iphone-multi-screen-2.png",
+      "sha256": "3dd959f70a1e2b4488fd755f07fd65afaa60e472d47d50a266f8addbaef47580"
+    },
+    {
+      "file": "iphone-multi-screen-3.png",
+      "sha256": "acd16f2ac0775d8a29a82145c6143af6417a78682bd03223700a585f21d7a1a9"
+    },
+    {
+      "file": "iphone-multi-screen-4.png",
+      "sha256": "69a456f43a62a6bc589f986fb1f5c921916be0d0023cd197208c6ef51e86533e"
+    },
+    {
+      "file": "iphone-face-screen-top.png",
+      "sha256": "d22243a7dfa72f0b21c9c427edc3602cd8a1619fcf91ef3f889b3b07c8597e24"
+    },
+    {
+      "file": "iphone-face-screen-bottom.png",
+      "sha256": "586e041471e14afb7f3d60df7d037a183da419fd381455c2782e0d169130b5a6"
+    },
+    {
+      "file": "shell.svg",
+      "derived_from": "sources/shell-promotional-layout.svg",
+      "sha256": "e23fbd90dcdb4d4d939db7d2c47cdc7aafa7f4dad98448d33c8c0e9c9fd595ff"
+    },
+    {
+      "file": "iphone-pixel-detail.png",
+      "sha256": "0658c25966925380e47e375c0e31c33b2db215b2a0d8a6de8ec9fac3231a6238"
+    },
+    {
+      "file": "assistant-wave.png",
+      "sha256": "06035259007bb653c308d46e3ff44c2a241473b7fdaf87812f6b8bb60357e66f"
+    }
+  ]
+}

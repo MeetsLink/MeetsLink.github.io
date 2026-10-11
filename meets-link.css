@@ -1,0 +1,110 @@
+/* Meets Link: homepage, support and policy layout. */
+:root {
+    color-scheme: light;
+    --ink: #292827;
+    --muted: #67635f;
+    --line: #e5e2dd;
+    --link: #346b9e;
+}
+
+* { box-sizing: border-box; }
+html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+body {
+    margin: 0;
+    color: var(--ink);
+    background: #fcfbf9;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+}
+a { color: var(--link); text-underline-offset: 4px; text-decoration-thickness: 1px; }
+a:hover { color: #244f78; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; border-radius: 3px; }
+img { max-width: 100%; height: auto; vertical-align: middle; }
+h1, h3, h4, h6, p { margin: 0; }
+
+.home-page {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #ffffff 0%, #fcfbf9 100%);
+}
+.home-main {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    padding: 64px 24px 56px;
+}
+.home-content { width: 100%; max-width: 800px; text-align: center; }
+#meets-link {
+    font-size: clamp(44px, 9.8vw, 104px);
+    font-weight: 700;
+    letter-spacing: -0.065em;
+    line-height: 1.08;
+    white-space: nowrap;
+}
+.welcome { margin: 24px 0 36px; color: var(--muted); font-size: 18px; font-weight: 400; }
+.downloads { display: flex; justify-content: center; }
+.downloads a { display: inline-flex; border-radius: 9px; }
+.downloads img { width: 180px; }
+.site-footer {
+    width: calc(100% - 48px);
+    max-width: 960px;
+    margin: 0 auto;
+    border-top: 1px solid var(--line);
+    padding: 20px 0 max(20px, env(safe-area-inset-bottom));
+    color: #b0aaa4;
+    font-size: 14px;
+    text-align: center;
+}
+#footer { display: inline-flex; align-items: center; gap: 14px; }
+.site-footer a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); text-decoration: none; }
+.site-footer a:hover { color: var(--ink); text-decoration: underline; }
+
+.page-nav {
+    width: calc(100% - 48px);
+    max-width: 760px;
+    margin: 0 auto 56px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+    color: #aaa39c;
+    font-size: 14px;
+}
+.page-nav p { display: flex; align-items: center; gap: 14px; }
+.page-nav a { display: inline-flex; align-items: center; min-height: 40px; text-decoration: none; }
+.page-nav a:hover { text-decoration: underline; }
+.document-shell { width: calc(100% - 48px); max-width: 760px; margin: 0 auto; padding-bottom: 72px; }
+.contact-intro { max-width: 660px; margin-bottom: 40px; }
+.contact-intro h4 { font-size: 28px; font-weight: 600; letter-spacing: -0.025em; line-height: 1.6; }
+.contact-intro h6 { margin-top: 24px; color: var(--muted); font-size: 16px; font-weight: 400; overflow-wrap: anywhere; }
+.contact-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.contact-channel { min-width: 0; padding: 28px; border: 1px solid var(--line); border-radius: 18px; background: #fff; }
+.contact-channel h6 { min-height: 26px; margin-bottom: 24px; font-size: 15px; font-weight: 600; }
+.contact-channel p { text-align: center; }
+.contact-channel p img { width: 200px; }
+.contact-channel a { display: inline-block; }
+
+.policy-content { line-height: 1.9; }
+.policy-content h1 { margin: 40px 0 16px; font-size: 23px; font-weight: 600; line-height: 1.5; letter-spacing: -0.02em; }
+.policy-content h1:first-child { margin: 0 0 28px; font-size: clamp(28px, 4vw, 38px); line-height: 1.35; }
+.policy-content p { margin: 0 0 16px; overflow-wrap: anywhere; }
+
+@media (max-width: 560px) {
+    .home-main { padding: 52px 24px 40px; }
+    .welcome { margin: 20px 0 30px; font-size: 16px; }
+    .page-nav { margin-bottom: 36px; padding-top: 12px; padding-bottom: 12px; }
+    .contact-intro h4 { font-size: 23px; }
+    .contact-options { grid-template-columns: 1fr; gap: 20px; }
+    .contact-channel { padding: 24px; }
+    .contact-channel h6 { margin-bottom: 20px; }
+    .document-shell { padding-bottom: 48px; }
+    .policy-content { font-size: 15px; }
+    .policy-content h1 { font-size: 21px; margin-top: 32px; }
+}
+
+@media print {
+    body { background: #fff; }
+    .page-nav { display: none; }
+    .document-shell { width: 100%; max-width: none; padding: 0; }
+    .policy-content h1 { break-after: avoid; }
+}

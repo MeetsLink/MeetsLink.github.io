@@ -1,0 +1,1111 @@
+{
+  "base_url": "https://meetslink.app",
+  "updated": "2026-10-11",
+  "support_email": "supports@meetslink.app",
+  "locales": {
+    "zh-Hans": {
+      "label": "简体中文",
+      "region": "中国大陆",
+      "assistant": "PP吉",
+      "nav": {
+        "home": "首页",
+        "support": "技术支持",
+        "privacy": "隐私政策"
+      },
+      "ui": {
+        "skip": "跳到正文",
+        "languages": "语言",
+        "navigation": "页面导航",
+        "updated": "更新日期",
+        "contents": "本页内容",
+        "contact": "联系支持",
+        "email": "发送邮件",
+        "back": "P’s Pocket 首页",
+        "footer": "P’s Pocket 开发团队",
+        "website": "Meets Link",
+        "support_subject": "P’s Pocket 技术支持",
+        "name_origin": "PP吉是我们创作的小宠物，P’s Pocket 就是「PP吉的口袋」。"
+      },
+      "home": {
+        "title": "把宠物机放进口袋",
+        "lead": "导入兼容固件，创建属于你的宠物机。照顾宠物、整理储物柜，也可以和附近的朋友一起玩。",
+        "primary": "使用帮助",
+        "secondary": "了解隐私政策",
+        "intro_title": "从第一台机子开始",
+        "intro": "第一次打开 App，PP吉会带你体验导入、创建和按键操作。教学使用原创练习固件，结束后会清理教学添加的机子。",
+        "features": [
+          [
+            "各自保存的进度",
+            "每台机子有独立进度和外壳，最多四台同时分屏游玩。"
+          ],
+          [
+            "面对面一起玩",
+            "双机分屏时，可以颠倒上方画面，两个人面对面共用一台手机。也支持附近联机与出借。"
+          ],
+          [
+            "留住游戏记录",
+            "查看宠物资料、日记与收藏，使用 iCloud 或自己选择的文件夹备份。"
+          ]
+        ],
+        "note_title": "关于游戏固件",
+        "note": "App 不内置官方固件。除内置原创教学外，游玩需要你自行导入兼容的完整原版固件，并确保有权使用该文件。文件校验只能确认完整性与兼容性，不能证明版权授权。",
+        "screen_caption": "画面来自内置原创练习宠物。",
+        "screen_alt": "PP吉在练习宠物的液晶游戏画面中，下面显示 A、B、C 三个游戏按键。",
+        "presentation": {
+          "headline": [
+            "把宠物机",
+            "放进口袋"
+          ],
+          "facts": [
+            "最多四台分屏",
+            "每台独立进度",
+            "面对面一起玩"
+          ],
+          "multi_kicker": "两台、三台，或四台",
+          "multi_title": [
+            "一台手机，",
+            "各自的小世界。"
+          ],
+          "multi_text": "把几台机子一起摆开，随时照顾不同的宠物。每台有自己的外壳和进度，也可以在游戏里选择联机。",
+          "face_kicker": "换个方向，一起玩",
+          "face_title": [
+            "面对面，",
+            "刚刚好。"
+          ],
+          "face_text": "双机分屏时，颠倒上方画面，就能和对面的朋友共用一台手机。想把机子借给朋友？双方核对并确认，就能带着进度交接。",
+          "lcd_kicker": "熟悉的液晶质感",
+          "lcd_title": [
+            "小小像素，",
+            "也看得清楚。"
+          ],
+          "lcd_text": "放大游戏画面，看看像素格与屏幕质感。液晶屏滤镜可以在设置里开关，外观也可以选择极简或精美。",
+          "lcd_alt": "原创练习宠物的真实液晶滤镜近景，可以看到像素网格和黄色宠物。",
+          "steps": [
+            "导入兼容固件",
+            "创建一台机子",
+            "开始游玩"
+          ],
+          "help_link": "看看操作说明",
+          "records_kicker": "属于你的游戏记录"
+        }
+      },
+      "support": {
+        "title": "技术支持",
+        "lead": "从导入第一份固件，到找回储物柜里的进度。这里整理了常用操作和排查方法。",
+        "contact_title": "需要我们帮忙？",
+        "contact_text": "发送邮件时，请说明遇到的问题、操作步骤、App 版本、iPhone 型号和 iOS 版本。截图请遮住个人信息；不必发送完整固件、存档或 Apple 账号密码。",
+        "faq_title": "常见问题",
+        "faq": [
+          [
+            "start",
+            "怎样开始游玩？",
+            [
+              "在“设置 → 游戏固件”中选择“导入固件”，通过系统文件选择器打开你已有的 .bin 文件。也可以在“文件”中选择“用 P’s Pocket 打开”。",
+              "校验通过后，打开储物柜新建机子，选择已导入的固件和外壳，再取出游玩。首次教学会提供原创练习固件，不需要另外下载教学文件。"
+            ]
+          ],
+          [
+            "firmware",
+            "固件无法导入怎么办？",
+            [
+              "请使用兼容的完整原版固件，不要使用单独的汉化补丁、压缩包或不完整的导出文件。在固件页面的帮助中打开“兼容的固件列表”，对照文件名、大小和哈希值。",
+              "如果文件在云盘里，先确认下载完成。仍然失败时，请将报错文字发给我们。我们不提供官方固件，也无法替你取得其使用授权。"
+            ]
+          ],
+          [
+            "language",
+            "如何使用中文版？",
+            [
+              "App 界面为简体中文，且所选固件有匹配汉化补丁时，新建页面会显示“使用中文版”。你也可以保留原版语言。",
+              "繁体中文与英文界面不提供新建中文版的开关。App 界面语言与导入固件本身的游戏语言是两回事。"
+            ]
+          ],
+          [
+            "tutorial",
+            "怎样重新查看教学？",
+            [
+              "打开“设置 → 操作说明”，选择“操作教程”。这里也提供储物柜、整理、联机和调整画面的分项教学，可以只看需要的部分。"
+            ]
+          ],
+          [
+            "cabinet",
+            "怎样分屏、整理或删除机子？",
+            [
+              "储物柜里直接点击另一台机子，会替换当前游玩的机子。要同时玩多台，在机子菜单中选择“放到旁边一起玩”，最多四台。",
+              "点击机子下方的标题查看资料。长按机子进入整理模式后，可以拖动排序，或使用出现的删除按钮。删除需要确认；借入或尚未归还的机子不能删除。"
+            ]
+          ],
+          [
+            "backup",
+            "怎样备份和恢复进度？",
+            [
+              "在“设置 → 备份与恢复”查看 iCloud 状态。设备已登录 iCloud 且 iCloud 云盘可用时，自动备份默认开启；也可以立即备份。请确认界面显示上传完成。",
+              "重装或换机后，使用同一个 Apple 账号，在“从 iCloud 恢复”中选择备份。整体恢复会替换当前储物柜，而不是合并两份进度；请先保留当前数据，并按页面提示重新启动 App。",
+              "也可以选择额外备份文件夹。关闭备份或删除 App 内机子不会删除已存在的云端、文件夹或其他设备上的副本。"
+            ]
+          ],
+          [
+            "nearby",
+            "附近联机或出借连不上？",
+            [
+              "让双方设备靠近，保持 App 在前台并开启 Wi-Fi。检查系统设置中 P’s Pocket 的“本地网络”权限，双方尽量使用同一最新版本。",
+              "游戏联机从游戏自身的通讯选项开始。出借时，接收方打开储物柜里的“接收宠物机”，发送方选择机子的“面对面交接”；双方核对代码并确认。",
+              "交接中断时，重新连接原设备并按提示重试。不要通过删除机子或重装 App 来解除出借锁定。"
+            ]
+          ],
+          [
+            "resume",
+            "离开 App 后，宠物会继续成长吗？",
+            [
+              "首发版本从上次保存的位置继续，不提供持续后台运行、离线成长或宠物呼叫通知。返回 App 后会恢复保存的进度。",
+              "小组件按键可以短时推进游戏、播放本次声音并更新画面，不代表游戏持续在后台运行。"
+            ]
+          ],
+          [
+            "sound",
+            "小组件没有声音或画面未更新？",
+            [
+              "先打开 App，确认当前机子能够正常游玩，再检查系统媒体音量和小组件选择的机子。小组件更新时间受系统安排影响。",
+              "如果出现明确报错，请记录报错文字并联系支持。在确认备份前，不要删除 App。"
+            ]
+          ],
+          [
+            "remove-firmware",
+            "怎样管理已导入的固件？",
+            [
+              "打开“设置 → 游戏固件”，点击已导入条目查看占用空间和使用中的机子。没有任何机子使用的固件可以移除；仍被机子使用的固件会受到保护。",
+              "移除导入副本不会删除你原来的外部文件，也不会自动清除既有备份中的副本。"
+            ]
+          ]
+        ],
+        "privacy_title": "关于你发送的资料",
+        "privacy_text": "支持邮件只用于处理咨询与故障排查。了解本地数据、备份和附近交接的处理方式，请阅读隐私政策。"
+      },
+      "privacy": {
+        "title": "隐私政策",
+        "lead": "游戏记录主要保存在你的设备上。你可以使用自己的 iCloud 或指定文件夹备份，也可以在确认后将机子交给附近的朋友。开发团队不会自动收到你的游戏内容。",
+        "sections": [
+          [
+            "scope",
+            "适用范围",
+            [
+              "本政策由 P’s Pocket 开发团队提供，适用于 P’s Pocket 1.0 的 iPhone App、小组件，以及本网站的 /ps-pocket/ 页面。Meets Link 的其他页面和其他 App 有各自的隐私政策。",
+              "如果对本政策或数据处理有疑问，可以通过 [email] 联系我们。"
+            ]
+          ],
+          [
+            "local",
+            "保存在设备上的数据",
+            [
+              "App 在设备上处理你导入的固件、机子名称与外壳、游戏进度与即时状态、游戏中填写的名字或日期、宠物资料、好友记录、日记和收藏，以及 App 设置和教学进度。具体游戏记录取决于你使用的固件。",
+              "App 还保存用于区分机子和设备的随机标识、文件校验值、备份状态和出借记录。这些标识用于恢复、校验与防止交接重复，不作为广告标识使用。",
+              "小组件通过系统共享存储读取同一台机子的状态和画面，按键后写回进度。这不是向开发团队上传数据。"
+            ]
+          ],
+          [
+            "icloud",
+            "iCloud 自动备份",
+            [
+              "设备已登录 iCloud 且 iCloud 云盘可用时，App 的 iCloud 自动备份默认开启。你可以在“设置 → 备份与恢复”中关闭。",
+              "备份保存整个储物柜、各台机子进度、已导入固件及对应运行基线、可恢复的设置和交接记录，以及来源设备名称、随机设备标识和备份时间。备份通过 Apple 的 iCloud 服务保存到你的账号，开发团队不通过自己的服务器接收这些副本，也不会读取你的 Apple 账号密码。",
+              "每个来源设备通常保留最近五份已确认上传的整体备份。关闭自动备份不会删除已有副本；卸载 App、删除机子或恢复旧备份，也不会自动清除所有云端历史。Apple 的数据处理规则见 [apple]。"
+            ]
+          ],
+          [
+            "folder",
+            "你选择的备份文件夹",
+            [
+              "如果你选择额外备份位置，App 会通过系统文件选择器获得该文件夹的访问授权。备份包含对应机子的进度、固件、外观和交接记录，每台机子滚动保留五份。",
+              "文件夹可以位于本机、iCloud 云盘或你选用的文件服务。文件服务会按其规则处理上传和存储。备份文件没有另设 App 密码加密，请只选择你信任的位置。关闭自动备份、更换目录或卸载 App，不会删除原目录的备份。"
+            ]
+          ],
+          [
+            "nearby",
+            "附近联机和面对面交接",
+            [
+              "附近功能通过 Apple 系统连接能力发现设备并传输游戏通讯数据。参与设备会交换必要的随机设备标识、游戏会话信息和兼容性信息；面对面交接时，对方也能看到系统提供的设备名称。设备名称可能包含你自行设置的个人信息。",
+              "游戏中的名字、好友信息等可能随固件自身的通讯内容交换。确认出借或归还后，接收方会获得对应机子的进度、机子资料和交接记录。接收方缺少匹配固件时，交接还会传输并导入这台机子的原版固件，归还时不自动移除已导入的固件。",
+              "这些数据发给参与联机或交接的附近设备，连接要求使用系统加密，不经过开发团队的互联网中继服务器。请只向你信任的人交接，并确认你有权分享相关文件。"
+            ]
+          ],
+          [
+            "permissions",
+            "权限与外部服务",
+            [
+              "附近联机和交接需要系统的本地网络授权；导入和文件夹备份只访问你通过文件选择器授权的文件或目录。你可以在系统设置中撤销本地网络权限，在 App 中关闭相关备份功能。",
+              "首发版本不请求相机、麦克风、通讯录、定位、照片库或宠物呼叫通知权限，也不请求跨 App 跟踪授权。小组件播放游戏声音不使用麦克风。",
+              "点击固件列表的 Web 搜索按钮后，系统浏览器会将预设搜索词和固件文件名发送给 Bing，不发送你的固件内容或存档。搜索服务按 [microsoft] 处理请求。Apple 可能根据你的系统隐私选择提供系统诊断或商店统计，适用 Apple 自身的规则。"
+            ]
+          ],
+          [
+            "support",
+            "主动联系支持",
+            [
+              "如果你发送支持邮件，我们会收到你的邮件地址，以及你主动提供的描述、设备和版本信息、截图或附件，仅用于回复、排查和跟进该咨询，不用于广告，也不出售这些信息。",
+              "请避免发送 Apple 账号密码、完整商业固件和无关个人信息。支持资料仅在处理咨询、必要跟进或依法保存所需的期限内保留；你可以联系 [email]，申请查阅、更正或删除你提供的资料。"
+            ]
+          ],
+          [
+            "control",
+            "保留、删除与控制",
+            [
+              "本地进度保留至你删除机子或移除 App；系统备份、已有外部备份和其他设备持有的副本可能继续存在。整体恢复也可能为安全保留恢复前的数据。需要彻底删除时，应同时管理这些副本。",
+              "在储物柜长按整理并确认，可以删除符合条件的机子；借入或未归还的机子不能直接删除。未被机子使用的已导入固件，可在“设置 → 游戏固件”移除。",
+              "要删除 iCloud 副本，可在 Apple 提供的 iCloud 存储管理中管理 P’s Pocket 数据；额外文件夹的副本可在“文件”或对应服务中删除。为避免重新生成备份，请先关闭 App 的自动备份。开发团队无法远程删除你或其他用户设备、私人 iCloud 账号或文件服务中的资料。"
+            ]
+          ],
+          [
+            "website",
+            "本网站",
+            [
+              "这些 P’s Pocket 页面由 GitHub Pages 托管，不嵌入广告、统计脚本、第三方字体或外部追踪图片，也不通过 Cookie 分析访客。",
+              "托管服务为提供网页和维护安全，可能处理 IP 地址、浏览器和请求时间等访问资料，适用 [github]。这些访问资料不与 App 的游戏记录关联。点击外部链接或发送邮件时，所用网站或邮件服务按其自身规则处理数据。",
+              "网页会读取浏览器的语言偏好，用于选择页面语言。手动切换后，仅在当前浏览器本地保存所选语言，不用于追踪或广告，也不与 App 数据关联。清除浏览器中的本站数据即可移除这个选择。"
+            ]
+          ],
+          [
+            "security",
+            "安全与政策更新",
+            [
+              "App 使用系统应用隔离、文件完整性校验和加密的附近连接，尽量减少数据访问。云端、文件服务、收件人设备和你的设备安全也影响数据保护，任何方式都不能保证绝对安全。",
+              "本政策更新时，会在本页修改更新日期。涉及数据处理方式的重要变化会在适用情况下另行提示。隐私问题与请求请联系 [email]。"
+            ]
+          ]
+        ],
+        "references": {
+          "apple": "Apple 隐私政策",
+          "microsoft": "Microsoft 隐私声明",
+          "github": "GitHub 隐私声明"
+        }
+      }
+    },
+    "zh-Hant-HK": {
+      "label": "繁體中文（香港）",
+      "region": "香港",
+      "assistant": "PP吱",
+      "nav": {
+        "home": "首頁",
+        "support": "技術支援",
+        "privacy": "私隱政策"
+      },
+      "ui": {
+        "skip": "跳到正文",
+        "languages": "語言",
+        "navigation": "頁面導覽",
+        "updated": "更新日期",
+        "contents": "本頁內容",
+        "contact": "聯絡支援",
+        "email": "傳送郵件",
+        "back": "P’s Pocket 首頁",
+        "footer": "P’s Pocket 開發團隊",
+        "website": "Meets Link",
+        "support_subject": "P’s Pocket 技術支援",
+        "name_origin": "PP吱是我們創作的小寵物，P’s Pocket 就是「PP吱的口袋」。"
+      },
+      "home": {
+        "title": "把寵物機放進口袋",
+        "lead": "載入相容韌體，建立屬於你的寵物機。照顧寵物、整理儲物櫃，也可以和附近的朋友一起玩。",
+        "primary": "使用說明",
+        "secondary": "了解私隱政策",
+        "intro_title": "從第一台機子開始",
+        "intro": "第一次打開 App，PP吱會帶你體驗載入、建立和按鍵操作。教學使用原創練習韌體，結束後會清理教學加入的機子。",
+        "features": [
+          [
+            "各自儲存的進度",
+            "每台機子有獨立進度和外殼，最多四台同時分割畫面遊玩。"
+          ],
+          [
+            "面對面一起玩",
+            "雙機分割畫面時，可以倒轉上方畫面，兩個人面對面共用一部手機。亦支援附近連線及出借。"
+          ],
+          [
+            "留住遊戲紀錄",
+            "查看寵物資料、日記與收藏，使用 iCloud 或自己選擇的資料夾備份。"
+          ]
+        ],
+        "note_title": "關於遊戲韌體",
+        "note": "App 不內建官方韌體。除內建原創教學外，遊玩需要你自行載入相容的完整原版韌體，並確保有權使用該檔案。檔案驗證只能確認完整性與相容性，不能證明著作權授權。",
+        "screen_caption": "畫面來自內建原創練習寵物。",
+        "screen_alt": "PP吱在練習寵物的液晶遊戲畫面中，下方顯示 A、B、C 三個遊戲按鍵。",
+        "presentation": {
+          "headline": [
+            "把寵物機",
+            "放進口袋"
+          ],
+          "facts": [
+            "最多四台分割畫面",
+            "每台獨立進度",
+            "面對面一起玩"
+          ],
+          "multi_kicker": "兩台、三台，或四台",
+          "multi_title": [
+            "一部手機，",
+            "各自的小世界。"
+          ],
+          "multi_text": "把幾台機子一起擺開，隨時照顧不同的寵物。每台有自己的外殼和進度，也可以在遊戲裡選擇連線。",
+          "face_kicker": "轉個方向，一起玩",
+          "face_title": [
+            "面對面，",
+            "剛剛好。"
+          ],
+          "face_text": "雙機分割畫面時，倒轉上方畫面，就能和對面的朋友共用一部手機。想把機子借給朋友？雙方核對並確認，就能帶着進度交接。",
+          "lcd_kicker": "熟悉的液晶質感",
+          "lcd_title": [
+            "小小像素，",
+            "也看得清楚。"
+          ],
+          "lcd_text": "放大遊戲畫面，看看像素格與螢幕質感。液晶螢幕濾鏡可以在設定裡開關，外觀亦可以選擇極簡或精美。",
+          "lcd_alt": "原創練習寵物的真實液晶濾鏡近鏡，可以看到像素網格和黃色寵物。",
+          "steps": [
+            "載入相容韌體",
+            "建立一台機子",
+            "開始遊玩"
+          ],
+          "help_link": "看看操作說明",
+          "records_kicker": "屬於你的遊戲紀錄"
+        }
+      },
+      "support": {
+        "title": "技術支援",
+        "lead": "從載入第一份韌體，到找回儲物櫃裡的進度。這裡整理了常用操作和排查方法。",
+        "contact_title": "需要我們幫忙？",
+        "contact_text": "傳送郵件時，請說明遇到的問題、操作步驟、App 版本、iPhone 型號和 iOS 版本。截圖請遮住個人資訊；不必傳送完整韌體、存檔或 Apple 帳號密碼。",
+        "faq_title": "常見問題",
+        "faq": [
+          [
+            "start",
+            "怎樣開始遊玩？",
+            [
+              "在「設定 → 遊戲韌體」中選擇「載入韌體」，透過系統檔案選擇器打開你已有的 .bin 檔案。也可以在「檔案」中選擇「用 P’s Pocket 打開」。",
+              "驗證通過後，打開儲物櫃建立機子，選擇已載入的韌體和外殼，再取出遊玩。首次教學會提供原創練習韌體，不需要另外下載教學檔案。"
+            ]
+          ],
+          [
+            "firmware",
+            "韌體無法載入怎麼辦？",
+            [
+              "請使用相容的完整原版韌體，不要使用單獨的漢化補丁、壓縮檔或不完整的匯出檔案。在韌體頁面的說明中打開「相容的韌體列表」，對照檔名、大小和雜湊值。",
+              "如果檔案在雲端硬碟裡，先確認下載完成。仍然失敗時，請將錯誤訊息傳給我們。我們不提供官方韌體，也無法替你取得其使用授權。"
+            ]
+          ],
+          [
+            "language",
+            "如何使用中文版？",
+            [
+              "App 介面為簡體中文，且所選韌體有匹配漢化補丁時，新建頁面會顯示「使用中文版」。你也可以保留原版語言。",
+              "繁體中文與英文介面不提供新建中文版的開關。App 介面語言與載入韌體本身的遊戲語言是兩回事。"
+            ]
+          ],
+          [
+            "tutorial",
+            "怎樣重新查看教學？",
+            [
+              "打開「設定 → 操作說明」，選擇「操作教程」。這裡也提供儲物櫃、整理、連線和調整畫面的分項教學，可以只看需要的部分。"
+            ]
+          ],
+          [
+            "cabinet",
+            "怎樣分割畫面、整理或刪除機子？",
+            [
+              "儲物櫃裡直接點擊另一台機子，會替換目前遊玩的機子。要同時玩多台，在機子選單中選擇「放到旁邊一起玩」，最多四台。",
+              "點擊機子下方的標題查看資料。長按機子進入整理模式後，可以拖曳排序，或使用出現的刪除按鈕。刪除需要確認；借入或尚未歸還的機子不能刪除。"
+            ]
+          ],
+          [
+            "backup",
+            "怎樣備份和恢復進度？",
+            [
+              "在「設定 → 備份與恢復」查看 iCloud 狀態。裝置已登入 iCloud 且 iCloud 雲碟可用時，自動備份預設開啟；也可以立即備份。請確認介面顯示上傳完成。",
+              "重新安裝或換機後，使用同一個 Apple 帳號，在「從 iCloud 恢復」中選擇備份。整體恢復會取代目前儲物櫃，而不是合併兩份進度；請先保留目前資料，並依頁面提示重新啟動 App。",
+              "也可以選擇額外備份資料夾。關閉備份或刪除 App 內機子不會刪除已存在的雲端、資料夾或其他裝置上的副本。"
+            ]
+          ],
+          [
+            "nearby",
+            "附近連線或出借連不上？",
+            [
+              "讓雙方裝置靠近，保持 App 在前台並開啟 Wi-Fi。檢查系統設定中 P’s Pocket 的「區域網路」權限，雙方盡量使用同一最新版本。",
+              "遊戲連線從遊戲本身的通訊選項開始。出借時，接收方打開儲物櫃裡的「接收寵物機」，傳送方選擇機子的「面對面交接」；雙方核對代碼並確認。",
+              "交接中斷時，重新連接原裝置並依提示重試。不要透過刪除機子或重新安裝 App 來解除出借鎖定。"
+            ]
+          ],
+          [
+            "resume",
+            "離開 App 後，寵物會繼續成長嗎？",
+            [
+              "首發版本從上次儲存的位置繼續，不提供持續背景執行、離線成長或寵物呼叫通知。返回 App 後會恢復儲存的進度。",
+              "小工具按鍵可以短暫推進遊戲、播放本次聲音並更新畫面，不代表遊戲持續在背景執行。"
+            ]
+          ],
+          [
+            "sound",
+            "小工具沒有聲音或畫面未更新？",
+            [
+              "先打開 App，確認目前機子能夠正常遊玩，再檢查系統媒體音量和小工具選擇的機子。小工具更新時間受系統安排影響。",
+              "如果出現明確錯誤，請記錄錯誤訊息並聯絡支援。在確認備份前，不要刪除 App。"
+            ]
+          ],
+          [
+            "remove-firmware",
+            "怎樣管理已載入的韌體？",
+            [
+              "打開「設定 → 遊戲韌體」，點擊已載入項目查看佔用空間和使用中的機子。沒有任何機子使用的韌體可以移除；仍被機子使用的韌體會受到保護。",
+              "移除載入副本不會刪除你原來的外部檔案，也不會自動清除既有備份中的副本。"
+            ]
+          ]
+        ],
+        "privacy_title": "關於你傳送的資料",
+        "privacy_text": "支援郵件只用於處理諮詢與故障排查。了解本機資料、備份和附近交接的處理方式，請閱讀私隱政策。"
+      },
+      "privacy": {
+        "title": "私隱政策",
+        "lead": "遊戲紀錄主要儲存在你的裝置上。你可以使用自己的 iCloud 或指定資料夾備份，也可以在確認後將機子交給附近的朋友。開發團隊不會自動收到你的遊戲內容。",
+        "sections": [
+          [
+            "scope",
+            "適用範圍",
+            [
+              "本政策由 P’s Pocket 開發團隊提供，適用於 P’s Pocket 1.0 的 iPhone App、小工具，以及本網站的 /ps-pocket/ 頁面。Meets Link 的其他頁面和其他 App 有各自的私隱政策。",
+              "如果對本政策或資料處理有疑問，可以透過 [email] 聯絡我們。"
+            ]
+          ],
+          [
+            "local",
+            "儲存在裝置上的資料",
+            [
+              "App 在裝置上處理你載入的韌體、機子名稱與外殼、遊戲進度與即時狀態、遊戲中填寫的名字或日期、寵物資料、好友紀錄、日記和收藏，以及 App 設定和教學進度。具體遊戲紀錄取決於你使用的韌體。",
+              "App 還儲存用於區分機子和裝置的隨機識別碼、檔案驗證值、備份狀態和出借紀錄。這些識別碼用於恢復、驗證與防止交接重複，不作為廣告識別碼使用。",
+              "小工具透過系統共用儲存空間讀取同一台機子的狀態和畫面，按鍵後寫回進度。這不是向開發團隊上傳資料。"
+            ]
+          ],
+          [
+            "icloud",
+            "iCloud 自動備份",
+            [
+              "裝置已登入 iCloud 且 iCloud 雲碟可用時，App 的 iCloud 自動備份預設開啟。你可以在「設定 → 備份與恢復」中關閉。",
+              "備份儲存整個儲物櫃、各台機子進度、已載入韌體及對應執行版本、可恢復的設定和交接紀錄，以及來源裝置名稱、隨機裝置識別碼和備份時間。備份透過 Apple 的 iCloud 服務儲存到你的帳號，開發團隊不透過自己的伺服器接收這些副本，也不會讀取你的 Apple 帳號密碼。",
+              "每個來源裝置通常保留最近五份已確認上傳的整體備份。關閉自動備份不會刪除已有副本；移除 App、刪除機子或恢復舊備份，也不會自動清除所有雲端歷史。Apple 的資料處理規則見 [apple]。"
+            ]
+          ],
+          [
+            "folder",
+            "你選擇的備份資料夾",
+            [
+              "如果你選擇額外備份位置，App 會透過系統檔案選擇器取得該資料夾的存取授權。備份包含對應機子的進度、韌體、外觀和交接紀錄，每台機子輪替保留五份。",
+              "資料夾可以位於本機、iCloud 雲碟或你選用的檔案服務。檔案服務會依其規則處理上傳和儲存。備份檔案沒有另設 App 密碼加密，請只選擇你信任的位置。關閉自動備份、更換目錄或移除 App，不會刪除原目錄的備份。"
+            ]
+          ],
+          [
+            "nearby",
+            "附近連線和面對面交接",
+            [
+              "附近功能透過 Apple 系統連接能力發現裝置並傳輸遊戲通訊資料。參與裝置會交換必要的隨機裝置識別碼、遊戲工作階段資訊和相容性資訊；面對面交接時，對方也能看到系統提供的裝置名稱。裝置名稱可能包含你自行設定的個人資訊。",
+              "遊戲中的名字、好友資訊等可能隨韌體本身的通訊內容交換。確認出借或歸還後，接收方會取得對應機子的進度、機子資料和交接紀錄。接收方缺少相符韌體時，交接還會傳輸並載入這台機子的原版韌體，歸還時不自動移除已載入的韌體。",
+              "這些資料傳給參與連線或交接的附近裝置，連接要求使用系統加密，不經過開發團隊的網際網路中繼伺服器。請只向你信任的人交接，並確認你有權分享相關檔案。"
+            ]
+          ],
+          [
+            "permissions",
+            "權限與外部服務",
+            [
+              "附近連線和交接需要系統的區域網路授權；載入和資料夾備份只存取你透過檔案選擇器授權的檔案或目錄。你可以在系統設定中撤銷區域網路權限，在 App 中關閉相關備份功能。",
+              "首發版本不要求相機、麥克風、聯絡人、定位、照片圖庫或寵物呼叫通知權限，也不要求跨 App 追蹤授權。小工具播放遊戲聲音不使用麥克風。",
+              "點擊韌體列表的 Web 搜尋按鈕後，系統瀏覽器會將預設搜尋詞和韌體檔名傳給 Bing，不傳送你的韌體內容或存檔。搜尋服務依 [microsoft] 處理請求。Apple 可能依據你的系統私隱選擇提供系統診斷或商店統計，適用 Apple 本身的規則。"
+            ]
+          ],
+          [
+            "support",
+            "主動聯絡支援",
+            [
+              "如果你傳送支援郵件，我們會收到你的郵件地址，以及你主動提供的描述、裝置和版本資訊、截圖或附件，僅用於回覆、排查和跟進該諮詢，不用於廣告，也不出售這些資訊。",
+              "請避免傳送 Apple 帳號密碼、完整商業韌體和無關個人資訊。支援資料僅在處理諮詢、必要跟進或依法保存所需的期限內保留；你可以聯絡 [email]，申請查閱、更正或刪除你提供的資料。"
+            ]
+          ],
+          [
+            "control",
+            "保留、刪除與控制",
+            [
+              "本機進度保留至你刪除機子或移除 App；系統備份、已有外部備份和其他裝置持有的副本可能繼續存在。整體恢復也可能為安全保留恢復前的資料。需要徹底刪除時，應同時管理這些副本。",
+              "在儲物櫃長按整理並確認，可以刪除符合條件的機子；借入或未歸還的機子不能直接刪除。未被機子使用的已載入韌體，可在「設定 → 遊戲韌體」移除。",
+              "要刪除 iCloud 副本，可在 Apple 提供的 iCloud 儲存空間管理中管理 P’s Pocket 資料；額外資料夾的副本可在「檔案」或對應服務中刪除。為避免重新產生備份，請先關閉 App 的自動備份。開發團隊無法遠端刪除你或其他使用者裝置、私人 iCloud 帳號或檔案服務中的資料。"
+            ]
+          ],
+          [
+            "website",
+            "本網站",
+            [
+              "這些 P’s Pocket 頁面由 GitHub Pages 託管，不嵌入廣告、統計指令碼、第三方字型或外部追蹤圖片，也不透過 Cookie 分析訪客。",
+              "託管服務為提供網頁和維護安全，可能處理 IP 位址、瀏覽器和請求時間等存取資料，適用 [github]。這些存取資料不與 App 的遊戲紀錄關聯。點擊外部連結或傳送郵件時，所用網站或郵件服務依其本身規則處理資料。",
+              "網頁會讀取瀏覽器的語言偏好，用於選擇頁面語言。手動切換後，僅在目前瀏覽器本機儲存所選語言，不用於追蹤或廣告，亦不與 App 資料關聯。清除瀏覽器中的本站資料即可移除這個選擇。"
+            ]
+          ],
+          [
+            "security",
+            "安全與政策更新",
+            [
+              "App 使用系統應用程式隔離、檔案完整性驗證和加密的附近連接，盡量減少資料存取。雲端、檔案服務、收件人裝置和你的裝置安全也影響資料保護，任何方式都不能保證絕對安全。",
+              "本政策更新時，會在本頁修改更新日期。涉及資料處理方式的重要變化會在適用情況下另行提示。私隱問題與請求請聯絡 [email]。"
+            ]
+          ]
+        ],
+        "references": {
+          "apple": "Apple 私隱政策",
+          "microsoft": "Microsoft 私隱聲明",
+          "github": "GitHub 私隱聲明"
+        }
+      }
+    },
+    "zh-Hant-TW": {
+      "label": "繁體中文（台灣）",
+      "region": "台灣",
+      "assistant": "PP吉",
+      "nav": {
+        "home": "首頁",
+        "support": "技術支援",
+        "privacy": "隱私權政策"
+      },
+      "ui": {
+        "skip": "跳到正文",
+        "languages": "語言",
+        "navigation": "頁面導覽",
+        "updated": "更新日期",
+        "contents": "本頁內容",
+        "contact": "聯絡支援",
+        "email": "傳送郵件",
+        "back": "P’s Pocket 首頁",
+        "footer": "P’s Pocket 開發團隊",
+        "website": "Meets Link",
+        "support_subject": "P’s Pocket 技術支援",
+        "name_origin": "PP吉是我們創作的小寵物，P’s Pocket 就是「PP吉的口袋」。"
+      },
+      "home": {
+        "title": "把寵物機放進口袋",
+        "lead": "匯入相容韌體，建立屬於你的寵物機。照顧寵物、整理儲物櫃，也可以和附近的朋友一起玩。",
+        "primary": "使用說明",
+        "secondary": "了解隱私權政策",
+        "intro_title": "從第一台機子開始",
+        "intro": "第一次打開 App，PP吉會帶你體驗匯入、建立和按鍵操作。教學使用原創練習韌體，結束後會清理教學加入的機子。",
+        "features": [
+          [
+            "各自儲存的進度",
+            "每台機子有獨立進度和外殼，最多四台同時分割畫面遊玩。"
+          ],
+          [
+            "面對面一起玩",
+            "雙機分割畫面時，可以倒轉上方畫面，兩個人面對面共用一支手機。也支援附近連線與出借。"
+          ],
+          [
+            "留住遊戲紀錄",
+            "查看寵物資料、日記與收藏，使用 iCloud 或自己選擇的資料夾備份。"
+          ]
+        ],
+        "note_title": "關於遊戲韌體",
+        "note": "App 不內建官方韌體。除內建原創教學外，遊玩需要你自行匯入相容的完整原版韌體，並確保有權使用該檔案。檔案驗證只能確認完整性與相容性，不能證明著作權授權。",
+        "screen_caption": "畫面來自內建原創練習寵物。",
+        "screen_alt": "PP吉在練習寵物的液晶遊戲畫面中，下方顯示 A、B、C 三個遊戲按鍵。",
+        "presentation": {
+          "headline": [
+            "把寵物機",
+            "放進口袋"
+          ],
+          "facts": [
+            "最多四台分割畫面",
+            "每台獨立進度",
+            "面對面一起玩"
+          ],
+          "multi_kicker": "兩台、三台，或四台",
+          "multi_title": [
+            "一支手機，",
+            "各自的小世界。"
+          ],
+          "multi_text": "把幾台機子一起擺開，隨時照顧不同的寵物。每台有自己的外殼和進度，也可以在遊戲裡選擇連線。",
+          "face_kicker": "換個方向，一起玩",
+          "face_title": [
+            "面對面，",
+            "剛剛好。"
+          ],
+          "face_text": "雙機分割畫面時，倒轉上方畫面，就能和對面的朋友共用一支手機。想把機子借給朋友？雙方核對並確認，就能帶著進度交接。",
+          "lcd_kicker": "熟悉的液晶質感",
+          "lcd_title": [
+            "小小像素，",
+            "也看得清楚。"
+          ],
+          "lcd_text": "放大遊戲畫面，看看像素格與螢幕質感。液晶螢幕濾鏡可以在設定裡開關，外觀也可以選擇極簡或精美。",
+          "lcd_alt": "原創練習寵物的真實液晶濾鏡近景，可以看到像素網格和黃色寵物。",
+          "steps": [
+            "匯入相容韌體",
+            "建立一台機子",
+            "開始遊玩"
+          ],
+          "help_link": "看看操作說明",
+          "records_kicker": "屬於你的遊戲紀錄"
+        }
+      },
+      "support": {
+        "title": "技術支援",
+        "lead": "從匯入第一份韌體，到找回儲物櫃裡的進度。這裡整理了常用操作和排查方法。",
+        "contact_title": "需要我們幫忙？",
+        "contact_text": "傳送郵件時，請說明遇到的問題、操作步驟、App 版本、iPhone 型號和 iOS 版本。截圖請遮住個人資訊；不必傳送完整韌體、存檔或 Apple 帳號密碼。",
+        "faq_title": "常見問題",
+        "faq": [
+          [
+            "start",
+            "怎樣開始遊玩？",
+            [
+              "在「設定 → 遊戲韌體」中選擇「匯入韌體」，透過系統檔案選擇器打開你已有的 .bin 檔案。也可以在「檔案」中選擇「用 P’s Pocket 打開」。",
+              "驗證通過後，打開儲物櫃建立機子，選擇已匯入的韌體和外殼，再取出遊玩。首次教學會提供原創練習韌體，不需要另外下載教學檔案。"
+            ]
+          ],
+          [
+            "firmware",
+            "韌體無法匯入怎麼辦？",
+            [
+              "請使用相容的完整原版韌體，不要使用單獨的漢化補丁、壓縮檔或不完整的匯出檔案。在韌體頁面的說明中打開「相容的韌體列表」，對照檔名、大小和雜湊值。",
+              "如果檔案在雲端硬碟裡，先確認下載完成。仍然失敗時，請將錯誤訊息傳給我們。我們不提供官方韌體，也無法替你取得其使用授權。"
+            ]
+          ],
+          [
+            "language",
+            "如何使用中文版？",
+            [
+              "App 介面為簡體中文，且所選韌體有匹配漢化補丁時，新建頁面會顯示「使用中文版」。你也可以保留原版語言。",
+              "繁體中文與英文介面不提供新建中文版的開關。App 介面語言與匯入韌體本身的遊戲語言是兩回事。"
+            ]
+          ],
+          [
+            "tutorial",
+            "怎樣重新查看教學？",
+            [
+              "打開「設定 → 操作說明」，選擇「操作教程」。這裡也提供儲物櫃、整理、連線和調整畫面的分項教學，可以只看需要的部分。"
+            ]
+          ],
+          [
+            "cabinet",
+            "怎樣分割畫面、整理或刪除機子？",
+            [
+              "儲物櫃裡直接點擊另一台機子，會替換目前遊玩的機子。要同時玩多台，在機子選單中選擇「放到旁邊一起玩」，最多四台。",
+              "點擊機子下方的標題查看資料。長按機子進入整理模式後，可以拖曳排序，或使用出現的刪除按鈕。刪除需要確認；借入或尚未歸還的機子不能刪除。"
+            ]
+          ],
+          [
+            "backup",
+            "怎樣備份和恢復進度？",
+            [
+              "在「設定 → 備份與恢復」查看 iCloud 狀態。裝置已登入 iCloud 且 iCloud 雲碟可用時，自動備份預設開啟；也可以立即備份。請確認介面顯示上傳完成。",
+              "重新安裝或換機後，使用同一個 Apple 帳號，在「從 iCloud 恢復」中選擇備份。整體恢復會取代目前儲物櫃，而不是合併兩份進度；請先保留目前資料，並依頁面提示重新啟動 App。",
+              "也可以選擇額外備份資料夾。關閉備份或刪除 App 內機子不會刪除已存在的雲端、資料夾或其他裝置上的副本。"
+            ]
+          ],
+          [
+            "nearby",
+            "附近連線或出借連不上？",
+            [
+              "讓雙方裝置靠近，保持 App 在前景並開啟 Wi-Fi。檢查系統設定中 P’s Pocket 的「區域網路」權限，雙方盡量使用同一最新版本。",
+              "遊戲連線從遊戲本身的通訊選項開始。出借時，接收方打開儲物櫃裡的「接收寵物機」，傳送方選擇機子的「面對面交接」；雙方核對代碼並確認。",
+              "交接中斷時，重新連接原裝置並依提示重試。不要透過刪除機子或重新安裝 App 來解除出借鎖定。"
+            ]
+          ],
+          [
+            "resume",
+            "離開 App 後，寵物會繼續成長嗎？",
+            [
+              "首發版本從上次儲存的位置繼續，不提供持續背景執行、離線成長或寵物呼叫通知。返回 App 後會恢復儲存的進度。",
+              "小工具按鍵可以短暫推進遊戲、播放本次聲音並更新畫面，不代表遊戲持續在背景執行。"
+            ]
+          ],
+          [
+            "sound",
+            "小工具沒有聲音或畫面未更新？",
+            [
+              "先打開 App，確認目前機子能夠正常遊玩，再檢查系統媒體音量和小工具選擇的機子。小工具更新時間受系統安排影響。",
+              "如果出現明確錯誤，請記錄錯誤訊息並聯絡支援。在確認備份前，不要刪除 App。"
+            ]
+          ],
+          [
+            "remove-firmware",
+            "怎樣管理已匯入的韌體？",
+            [
+              "打開「設定 → 遊戲韌體」，點擊已匯入項目查看佔用空間和使用中的機子。沒有任何機子使用的韌體可以移除；仍被機子使用的韌體會受到保護。",
+              "移除匯入副本不會刪除你原來的外部檔案，也不會自動清除既有備份中的副本。"
+            ]
+          ]
+        ],
+        "privacy_title": "關於你傳送的資料",
+        "privacy_text": "支援郵件只用於處理諮詢與故障排查。了解本機資料、備份和附近交接的處理方式，請閱讀隱私權政策。"
+      },
+      "privacy": {
+        "title": "隱私權政策",
+        "lead": "遊戲紀錄主要儲存在你的裝置上。你可以使用自己的 iCloud 或指定資料夾備份，也可以在確認後將機子交給附近的朋友。開發團隊不會自動收到你的遊戲內容。",
+        "sections": [
+          [
+            "scope",
+            "適用範圍",
+            [
+              "本政策由 P’s Pocket 開發團隊提供，適用於 P’s Pocket 1.0 的 iPhone App、小工具，以及本網站的 /ps-pocket/ 頁面。Meets Link 的其他頁面和其他 App 有各自的隱私權政策。",
+              "如果對本政策或資料處理有疑問，可以透過 [email] 聯絡我們。"
+            ]
+          ],
+          [
+            "local",
+            "儲存在裝置上的資料",
+            [
+              "App 在裝置上處理你匯入的韌體、機子名稱與外殼、遊戲進度與即時狀態、遊戲中填寫的名字或日期、寵物資料、好友紀錄、日記和收藏，以及 App 設定和教學進度。具體遊戲紀錄取決於你使用的韌體。",
+              "App 還儲存用於區分機子和裝置的隨機識別碼、檔案驗證值、備份狀態和出借紀錄。這些識別碼用於恢復、驗證與防止交接重複，不作為廣告識別碼使用。",
+              "小工具透過系統共用儲存空間讀取同一台機子的狀態和畫面，按鍵後寫回進度。這不是向開發團隊上傳資料。"
+            ]
+          ],
+          [
+            "icloud",
+            "iCloud 自動備份",
+            [
+              "裝置已登入 iCloud 且 iCloud 雲碟可用時，App 的 iCloud 自動備份預設開啟。你可以在「設定 → 備份與恢復」中關閉。",
+              "備份儲存整個儲物櫃、各台機子進度、已匯入韌體及對應執行版本、可恢復的設定和交接紀錄，以及來源裝置名稱、隨機裝置識別碼和備份時間。備份透過 Apple 的 iCloud 服務儲存到你的帳號，開發團隊不透過自己的伺服器接收這些副本，也不會讀取你的 Apple 帳號密碼。",
+              "每個來源裝置通常保留最近五份已確認上傳的整體備份。關閉自動備份不會刪除已有副本；解除安裝 App、刪除機子或恢復舊備份，也不會自動清除所有雲端歷史。Apple 的資料處理規則見 [apple]。"
+            ]
+          ],
+          [
+            "folder",
+            "你選擇的備份資料夾",
+            [
+              "如果你選擇額外備份位置，App 會透過系統檔案選擇器取得該資料夾的存取授權。備份包含對應機子的進度、韌體、外觀和交接紀錄，每台機子輪替保留五份。",
+              "資料夾可以位於本機、iCloud 雲碟或你選用的檔案服務。檔案服務會依其規則處理上傳和儲存。備份檔案沒有另設 App 密碼加密，請只選擇你信任的位置。關閉自動備份、更換目錄或解除安裝 App，不會刪除原目錄的備份。"
+            ]
+          ],
+          [
+            "nearby",
+            "附近連線和面對面交接",
+            [
+              "附近功能透過 Apple 系統連接能力發現裝置並傳輸遊戲通訊資料。參與裝置會交換必要的隨機裝置識別碼、遊戲工作階段資訊和相容性資訊；面對面交接時，對方也能看到系統提供的裝置名稱。裝置名稱可能包含你自行設定的個人資訊。",
+              "遊戲中的名字、好友資訊等可能隨韌體本身的通訊內容交換。確認出借或歸還後，接收方會取得對應機子的進度、機子資料和交接紀錄。接收方缺少相符韌體時，交接還會傳輸並匯入這台機子的原版韌體，歸還時不自動移除已匯入的韌體。",
+              "這些資料傳給參與連線或交接的附近裝置，連接要求使用系統加密，不經過開發團隊的網際網路中繼伺服器。請只向你信任的人交接，並確認你有權分享相關檔案。"
+            ]
+          ],
+          [
+            "permissions",
+            "權限與外部服務",
+            [
+              "附近連線和交接需要系統的區域網路授權；匯入和資料夾備份只存取你透過檔案選擇器授權的檔案或目錄。你可以在系統設定中撤銷區域網路權限，在 App 中關閉相關備份功能。",
+              "首發版本不要求相機、麥克風、聯絡人、定位、照片圖庫或寵物呼叫通知權限，也不要求跨 App 追蹤授權。小工具播放遊戲聲音不使用麥克風。",
+              "點擊韌體列表的 Web 搜尋按鈕後，系統瀏覽器會將預設搜尋詞和韌體檔名傳給 Bing，不傳送你的韌體內容或存檔。搜尋服務依 [microsoft] 處理請求。Apple 可能依據你的系統隱私選擇提供系統診斷或商店統計，適用 Apple 本身的規則。"
+            ]
+          ],
+          [
+            "support",
+            "主動聯絡支援",
+            [
+              "如果你傳送支援郵件，我們會收到你的郵件地址，以及你主動提供的描述、裝置和版本資訊、截圖或附件，僅用於回覆、排查和跟進該諮詢，不用於廣告，也不出售這些資訊。",
+              "請避免傳送 Apple 帳號密碼、完整商業韌體和無關個人資訊。支援資料僅在處理諮詢、必要跟進或依法保存所需的期限內保留；你可以聯絡 [email]，申請查閱、更正或刪除你提供的資料。"
+            ]
+          ],
+          [
+            "control",
+            "保留、刪除與控制",
+            [
+              "本機進度保留至你刪除機子或移除 App；系統備份、已有外部備份和其他裝置持有的副本可能繼續存在。整體恢復也可能為安全保留恢復前的資料。需要徹底刪除時，應同時管理這些副本。",
+              "在儲物櫃長按整理並確認，可以刪除符合條件的機子；借入或未歸還的機子不能直接刪除。未被機子使用的已匯入韌體，可在「設定 → 遊戲韌體」移除。",
+              "要刪除 iCloud 副本，可在 Apple 提供的 iCloud 儲存空間管理中管理 P’s Pocket 資料；額外資料夾的副本可在「檔案」或對應服務中刪除。為避免重新產生備份，請先關閉 App 的自動備份。開發團隊無法遠端刪除你或其他使用者裝置、私人 iCloud 帳號或檔案服務中的資料。"
+            ]
+          ],
+          [
+            "website",
+            "本網站",
+            [
+              "這些 P’s Pocket 頁面由 GitHub Pages 託管，不嵌入廣告、統計指令碼、第三方字型或外部追蹤圖片，也不透過 Cookie 分析訪客。",
+              "託管服務為提供網頁和維護安全，可能處理 IP 位址、瀏覽器和請求時間等存取資料，適用 [github]。這些存取資料不與 App 的遊戲紀錄關聯。點擊外部連結或傳送郵件時，所用網站或郵件服務依其本身規則處理資料。",
+              "網頁會讀取瀏覽器的語言偏好，用於選擇頁面語言。手動切換後，僅在目前瀏覽器本機儲存所選語言，不用於追蹤或廣告，也不與 App 資料關聯。清除瀏覽器中的本站資料即可移除這個選擇。"
+            ]
+          ],
+          [
+            "security",
+            "安全與政策更新",
+            [
+              "App 使用系統應用程式隔離、檔案完整性驗證和加密的附近連接，盡量減少資料存取。雲端、檔案服務、收件人裝置和你的裝置安全也影響資料保護，任何方式都不能保證絕對安全。",
+              "本政策更新時，會在本頁修改更新日期。涉及資料處理方式的重要變化會在適用情況下另行提示。隱私問題與請求請聯絡 [email]。"
+            ]
+          ]
+        ],
+        "references": {
+          "apple": "Apple 隱私權政策",
+          "microsoft": "Microsoft 隱私權聲明",
+          "github": "GitHub 隱私權聲明"
+        }
+      }
+    },
+    "en-US": {
+      "label": "English",
+      "region": "United States",
+      "assistant": "Pocochi",
+      "nav": {
+        "home": "Home",
+        "support": "Support",
+        "privacy": "Privacy"
+      },
+      "ui": {
+        "skip": "Skip to content",
+        "languages": "Language",
+        "navigation": "Page navigation",
+        "updated": "Updated",
+        "contents": "On this page",
+        "contact": "Contact support",
+        "email": "Email us",
+        "back": "P’s Pocket home",
+        "footer": "P’s Pocket development team",
+        "website": "Meets Link",
+        "support_subject": "P’s Pocket support",
+        "name_origin": "Pocochi is our original little pet. P’s Pocket is simply “Pocochi’s pocket.”"
+      },
+      "home": {
+        "title": "A pet device in your pocket",
+        "lead": "Import compatible firmware and create your own pet devices. Care for your pets, organize your cabinet, and play with friends nearby.",
+        "primary": "Get help",
+        "secondary": "Read our privacy policy",
+        "intro_title": "Start with your first device",
+        "intro": "On your first launch, Pocochi guides you through importing, creating a device, and using the buttons. The tutorial uses original practice firmware and cleans up the devices it adds when it ends.",
+        "features": [
+          [
+            "Progress of their own",
+            "Each device has its own progress and shell. Play with up to four devices in split screen."
+          ],
+          [
+            "Play face to face",
+            "Flip the top screen in two-device split screen to share one phone face to face. Nearby multiplayer and device lending are also supported."
+          ],
+          [
+            "Keep your game records",
+            "View pet details, diaries, and collections. Back up to iCloud or a folder you choose."
+          ]
+        ],
+        "note_title": "About game firmware",
+        "note": "The app does not include official firmware. Outside the original tutorial, you need to import compatible, complete original firmware that you have the right to use. File checks verify integrity and compatibility; they do not establish copyright permission.",
+        "screen_caption": "Screens show the original built-in practice pet.",
+        "screen_alt": "Pocochi on the practice pet’s LCD game screen, with A, B, and C game buttons below.",
+        "presentation": {
+          "headline": [
+            "A pet device,",
+            "in your pocket."
+          ],
+          "facts": [
+            "Up to four devices",
+            "Separate game progress",
+            "Play face to face"
+          ],
+          "multi_kicker": "Two, three, or four",
+          "multi_title": [
+            "One phone.",
+            "Little worlds of their own."
+          ],
+          "multi_text": "Bring a few devices out together and care for different pets. Each has its own shell and progress. Choose multiplayer inside the game to connect.",
+          "face_kicker": "Turn it around. Play together.",
+          "face_title": [
+            "Face to face.",
+            "On one phone."
+          ],
+          "face_text": "Flip the top screen in two-device split screen to share your phone with the friend across from you. You can also lend a whole device nearby, with a verified handoff that carries its progress.",
+          "lcd_kicker": "That familiar LCD feel",
+          "lcd_title": [
+            "Little pixels.",
+            "A closer look."
+          ],
+          "lcd_text": "Enlarge the game screen to see its pixel grid and LCD texture. Switch the filter on or off in Settings, and choose a minimal or detailed shell.",
+          "lcd_alt": "A real close-up of the original practice pet with the LCD filter, showing the pixel grid and yellow pet.",
+          "steps": [
+            "Import compatible firmware",
+            "Create a device",
+            "Start playing"
+          ],
+          "help_link": "Explore the how-to guide",
+          "records_kicker": "Your game, your records"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "lead": "Help with importing your first firmware file, organizing devices, and finding your saved progress.",
+        "contact_title": "Need a hand?",
+        "contact_text": "Email us with the issue, the steps that lead to it, your app version, iPhone model, and iOS version. Hide personal information in screenshots. You do not need to send complete firmware, saved games, or your Apple Account password.",
+        "faq_title": "Common questions",
+        "faq": [
+          [
+            "start",
+            "How do I start playing?",
+            [
+              "Go to Settings → Game Firmware → Import Firmware and select an existing .bin file in the system file picker. You can also use Open in P’s Pocket from Files.",
+              "After validation, create a device in the cabinet, choose the imported firmware and a shell, and take it out to play. The first tutorial includes original practice firmware; no separate tutorial download is needed."
+            ]
+          ],
+          [
+            "firmware",
+            "Why will my firmware file not import?",
+            [
+              "Use compatible, complete original firmware, rather than a translation patch, a ZIP archive, or an incomplete dump. Open Compatible Firmware List from the help button on the firmware page to compare the filename, size, and hashes.",
+              "If the file is in cloud storage, make sure it has finished downloading. If the problem continues, send us the exact error message. We do not supply official firmware or grant permission to use it."
+            ]
+          ],
+          [
+            "language",
+            "How do game language options work?",
+            [
+              "The option to create a device with a Chinese patch is available only when the app interface is in Simplified Chinese and the selected firmware has a matching patch. You can keep the original language instead.",
+              "Traditional Chinese and English interfaces do not offer that switch. The app interface language is separate from the game language in the imported firmware."
+            ]
+          ],
+          [
+            "tutorial",
+            "Where can I find the tutorials again?",
+            [
+              "Go to Settings → How to Play → App Tutorial. Separate tutorials also cover the cabinet, organizing devices, multiplayer, and adjusting the view. Choose just the topic you need."
+            ]
+          ],
+          [
+            "cabinet",
+            "How do I use split screen, reorder, or delete devices?",
+            [
+              "Tapping another device in the cabinet replaces the one you are playing. To play with more than one, choose Play Alongside in a device menu. You can play with up to four devices.",
+              "Tap the title below a device to see its details. Touch and hold a device to organize the cabinet, then drag to reorder or use its delete button. Deletion requires confirmation. Borrowed devices and devices still on loan cannot be deleted."
+            ]
+          ],
+          [
+            "backup",
+            "How do I back up or restore my progress?",
+            [
+              "Check Settings → Backup & Restore. Automatic iCloud backup is on by default when you are signed in to iCloud and iCloud Drive is available. You can also make an immediate backup. Check that the app reports the upload as complete.",
+              "After reinstalling or changing phones, use the same Apple Account and choose a backup in Restore from iCloud. A full restore replaces the current cabinet instead of merging progress. Save your current data first, and restart the app when instructed.",
+              "You can also choose an additional backup folder. Turning off backup or deleting a device in the app does not remove existing copies in iCloud, external folders, or other devices."
+            ]
+          ],
+          [
+            "nearby",
+            "Why will nearby multiplayer or a loan not connect?",
+            [
+              "Keep both devices close, with Wi-Fi on and the app in the foreground. Check the app’s Local Network permission in system settings, and use the same current app version on both devices where possible.",
+              "For multiplayer, start with the communication option inside the game. For a loan, the recipient opens Receive Pet Device in the cabinet and the sender chooses Handoff in Person for their device. Both people check the code and confirm.",
+              "If a handoff is interrupted, reconnect the original devices and follow the retry prompt. Do not delete a device or reinstall the app to try to bypass a loan lock."
+            ]
+          ],
+          [
+            "resume",
+            "Will my pet keep growing while the app is closed?",
+            [
+              "The first release resumes from the last saved position. It does not provide continuous background play, offline growth, or pet call notifications.",
+              "Widget buttons can briefly run the game, play its current sounds, and update the display. They do not keep the game running continuously in the background."
+            ]
+          ],
+          [
+            "sound",
+            "Why has a widget not updated or played sound?",
+            [
+              "First open the app and check that the selected device is playable. Then check the system media volume and which device the widget uses. The system controls widget update timing.",
+              "If there is an error message, record it and contact support. Do not delete the app before confirming that your backup is safe."
+            ]
+          ],
+          [
+            "remove-firmware",
+            "How do I manage imported firmware?",
+            [
+              "In Settings → Game Firmware, tap an imported entry to see its storage use and devices that depend on it. You can remove firmware that no device uses; firmware still in use is protected.",
+              "Removing an imported copy does not delete your original external file or copies in existing backups."
+            ]
+          ]
+        ],
+        "privacy_title": "Information you send us",
+        "privacy_text": "Support email is used to answer questions and troubleshoot issues. Read our privacy policy for how local progress, backups, and nearby handoffs work."
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "lead": "Game records are primarily stored on your device. You can back up to your own iCloud account or a chosen folder, and hand a device to someone nearby after confirmation. The development team does not automatically receive your game content.",
+        "sections": [
+          [
+            "scope",
+            "Scope and contact",
+            [
+              "This policy is provided by the P’s Pocket development team. It covers the P’s Pocket 1.0 iPhone app, its widgets, and the /ps-pocket/ pages on this website. Other Meets Link pages and apps have their own policies.",
+              "Contact us at [email] with questions about this policy or how data is handled."
+            ]
+          ],
+          [
+            "local",
+            "Data stored on your device",
+            [
+              "The app processes imported firmware, device names and shells, game progress and live state, names or dates entered in the game, pet details, friend records, diaries, collections, app preferences, and tutorial progress on your device. The game records available depend on the firmware you use.",
+              "It also stores randomly generated device and instance identifiers, file checksums, backup status, and loan records. These support restoration, integrity checks, and prevention of duplicate handoffs; they are not advertising identifiers.",
+              "Widgets read the same device’s state and display through system shared storage and save progress after button presses. This does not upload data to the development team."
+            ]
+          ],
+          [
+            "icloud",
+            "Automatic iCloud backup",
+            [
+              "Automatic iCloud backup is on by default when you are signed in to iCloud and iCloud Drive is available. You can turn it off in Settings → Backup & Restore.",
+              "Backups include the cabinet, each device’s progress, imported firmware and its running versions, restorable preferences, handoff records, and the source phone’s name, randomly generated device identifier, and backup time. Apple’s iCloud service stores them in your account. We do not receive these copies on our own servers or read your Apple Account password.",
+              "The app normally keeps the five most recent confirmed uploads per source device. Turning off backup does not delete existing copies. Uninstalling the app, deleting a device, or restoring an older backup does not automatically clear all cloud history. See the [apple] for Apple’s data practices."
+            ]
+          ],
+          [
+            "folder",
+            "Backup folders you choose",
+            [
+              "If you select an additional backup folder, the app gets access to that folder through the system file picker. Backups contain the relevant device’s progress, firmware, appearance, and handoff records. The app keeps five rotating copies per device.",
+              "The folder may be on your device, in iCloud Drive, or with a file service you choose. That service handles uploads and storage under its own terms. Backup files have no separate app password encryption, so choose a trusted location. Turning off backup, changing folders, or uninstalling the app does not remove backups from the previous folder."
+            ]
+          ],
+          [
+            "nearby",
+            "Nearby multiplayer and handoffs",
+            [
+              "Nearby features use Apple’s system connectivity to discover devices and exchange game communication data. Participating devices exchange necessary randomly generated identifiers, session details, and compatibility information. During an in-person handoff, the other person can also see the device name supplied by the system; that name may contain personal information you set.",
+              "Names, friend information, and other records may be exchanged by the firmware’s own game protocol. After a loan or return is confirmed, the recipient receives that device’s progress, details, and handoff records. If the recipient lacks matching firmware, the handoff also transfers and imports the original firmware for that device. Returning the device does not automatically remove imported firmware.",
+              "Data goes to nearby devices participating in the game or handoff over connections that require system encryption, without an internet relay operated by us. Hand devices only to people you trust, and make sure you have the right to share the files involved."
+            ]
+          ],
+          [
+            "permissions",
+            "Permissions and external services",
+            [
+              "Nearby multiplayer and handoffs require Local Network permission. Imports and folder backups access only files or folders you authorize in the system picker. You can revoke Local Network permission in system settings and turn off relevant backup features in the app.",
+              "The first release does not request camera, microphone, contacts, location, photo library, pet call notification, or cross-app tracking permission. Playing game sound through widgets does not use the microphone.",
+              "If you tap the firmware list’s web search button, your browser sends predefined search terms and firmware filenames to Bing, not your firmware contents or saved games. The [microsoft] applies to those requests. Apple may provide system diagnostics or store statistics according to your system privacy choices and Apple’s own rules."
+            ]
+          ],
+          [
+            "support",
+            "Contacting support",
+            [
+              "When you email support, we receive your email address and the descriptions, device or version details, screenshots, or attachments you choose to send. We use them only to answer, troubleshoot, and follow up on your request, not for advertising, and we do not sell them.",
+              "Please avoid sending Apple Account passwords, complete commercial firmware, or unrelated personal information. Support information is retained only for as long as needed to handle the request, necessary follow-up, or legal obligations. Email [email] to request access to, correction of, or deletion of information you supplied."
+            ]
+          ],
+          [
+            "control",
+            "Retention, deletion, and your choices",
+            [
+              "Local progress remains until you delete a device or remove the app. System backups, external copies, and copies on other devices may remain. A full restore may also preserve the previous data for safety. Manage these copies too if you want to delete everything.",
+              "Touch and hold in the cabinet, then confirm deletion to remove an eligible device. Borrowed devices and devices still on loan cannot be deleted directly. Remove unused imported firmware in Settings → Game Firmware.",
+              "To delete iCloud copies, manage P’s Pocket data using Apple’s iCloud storage controls. Delete additional folder copies through Files or the service concerned. Turn off automatic backup first to avoid creating new copies. We cannot remotely delete data on your or someone else’s device, private iCloud account, or file service."
+            ]
+          ],
+          [
+            "website",
+            "This website",
+            [
+              "These P’s Pocket pages are hosted on GitHub Pages. They embed no advertising, analytics scripts, third-party fonts, or external tracking images, and do not use cookies to analyze visitors.",
+              "The hosting service may process IP addresses, browser details, and request times to deliver pages and maintain security, under the [github]. Website request data is not linked to your game records. External websites and email services handle data under their own rules when you follow links or send email.",
+              "The website reads your browser’s language preferences to choose a page language. If you switch languages manually, only the chosen language is saved locally in that browser. It is not used for tracking or advertising and is not linked to app data. Clearing this site’s browser data removes the preference."
+            ]
+          ],
+          [
+            "security",
+            "Security and changes to this policy",
+            [
+              "The app uses system app isolation, file integrity checks, and encrypted nearby connections to limit data access. Protection also depends on your device, cloud or file services, and recipient devices. No method can guarantee absolute security.",
+              "When this policy changes, we update the date on this page. We will give additional notice of important data-handling changes where applicable. Send privacy questions and requests to [email]."
+            ]
+          ]
+        ],
+        "references": {
+          "apple": "Apple Privacy Policy",
+          "microsoft": "Microsoft Privacy Statement",
+          "github": "GitHub Privacy Statement"
+        }
+      }
+    }
+  }
+}
