@@ -1,0 +1,25 @@
+# Local files and validation output
+.DS_Store
+__pycache__/
+*.py[cod]
+/local-private/
+/screenshots/
+/ps-pocket/validation.json
+
+# Credentials and development signing files
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+
+# App builds, crash records and firmware files
+*.ipa
+*.xcarchive/
+*.dSYM/
+*.ips
+*.bin
+*.rom

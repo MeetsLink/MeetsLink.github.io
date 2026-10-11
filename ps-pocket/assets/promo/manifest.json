@@ -1,5 +1,4 @@
 {
-  "source_package": "Ps-Pocket-App-Store-2026-10-10-lively-r6-editable.zip",
   "adapted_at": "2026-10-11",
   "game_content": "Original practice firmware, actual App game screen crops.",
   "composition": "Borderless product page: oversized type, layered vector devices, alternating full-width scenes, and a warm charcoal LCD detail section. Original screenshot pixels are unchanged.",
@@ -35,7 +34,7 @@
     },
     {
       "file": "shell.svg",
-      "derived_from": "sources/shell-promotional-layout.svg",
+      "derived_from": "Original promotional shell artwork.",
       "sha256": "e23fbd90dcdb4d4d939db7d2c47cdc7aafa7f4dad98448d33c8c0e9c9fd595ff"
     },
     {
@@ -46,5 +45,6 @@
       "file": "assistant-wave.png",
       "sha256": "06035259007bb653c308d46e3ff44c2a241473b7fdaf87812f6b8bb60357e66f"
     }
-  ]
+  ],
+  "source": "Original P’s Pocket promotional artwork."
 }
