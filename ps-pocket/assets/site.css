@@ -50,6 +50,8 @@ a:focus-visible, summary:focus-visible, main:focus-visible { outline: 3px solid 
 .updated { color: var(--muted); margin-top: 22px; font-size: 13px; }
 .updated time { margin-left: 10px; font-variant-numeric: tabular-nums; }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 30px; }
+.app-store-badge { display: inline-flex; flex-shrink: 0; line-height: 0; }
+.app-store-badge img { width: auto; height: 48px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 16px; min-height: 48px; padding: 11px 22px; border-radius: 100px; font-weight: 600; font-size: 14px; text-decoration: none; border: 1px solid transparent; }
 .button:hover { text-decoration: none; filter: brightness(.95); }
 .button.primary { color: var(--accent-ink); background: var(--accent); box-shadow: 0 5px 16px rgba(87, 51, 93, .14); }

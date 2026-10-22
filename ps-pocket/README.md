@@ -20,6 +20,7 @@ P’s Pocket 的产品介绍、技术支持和隐私政策静态页面，发布�
 ## 维护
 
 - `content.json` 保存四份语言文案。修改后运行 `python3 scripts/build_ps_pocket.py`，一并提交生成的 HTML 和 `sitemap.xml`。
+- `assets/app-store/` 保存苹果官方黑色下载徽章原始 SVG：简体中文（`zh-cn`）、繁体中文（`zh-tw`，香港／台湾共用）和英文（`en-us`）。素材来自 `https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/{语言}?size=250x83`，遵循[苹果使用规范](https://developer.apple.com/app-store/marketing/guidelines/)，只等比显示，不修改图案。
 - `assets/site.css` 管理 P’s Pocket 排版；`assets/language.js` 处理通用入口语言选择。无需 npm、第三方字体或 CDN。
 - `../meets-link.css` 管理 Meets Link 首页、帮助和隐私政策的排版；栏目生成脚本不编辑这些页面。
 - `assets/promo/` 使用原创宣传素材与原创练习宠物画面；`manifest.json` 保存素材散列。栏目不提供商业固件。

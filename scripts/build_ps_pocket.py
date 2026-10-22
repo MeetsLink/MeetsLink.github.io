@@ -17,6 +17,7 @@ LOCALES = DATA['locales']
 BASE = DATA['base_url'].rstrip('/')
 EMAIL = DATA['support_email']
 APP_STORE = escape(DATA['app_store_url'], quote=True)
+APP_STORE_BADGES = {'zh-Hans': 'zh-cn', 'zh-Hant-HK': 'zh-tw', 'zh-Hant-TW': 'zh-tw', 'en-US': 'en-us'}
 REFERENCES = {
     'apple': 'https://www.apple.com/legal/privacy/en-ww/',
     'microsoft': 'https://www.microsoft.com/privacy/privacystatement',
@@ -70,7 +71,7 @@ def home(locale, c):
     steps = ''.join(f'<li><span>{i:02}</span>{escape(text)}</li>' for i, text in enumerate(v['steps'], 1))
     turn_arc = '<svg class="turn-arc" viewBox="0 0 180 200" aria-hidden="true"><path d="M152 14C15-2 0 85 76 108s68 72-31 69" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 9"/><path d="m67 159-24 18 22 11" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>'
     return f'''<section class="home-hero" aria-labelledby="page-title">
-  <div class="hero-copy"><p class="eyebrow">P’s Pocket</p><h1 id="page-title" class="hero-title">{line_title(v['headline'])}</h1><p class="lead">{escape(h['lead'])}</p><div class="actions"><a class="button primary" href="{APP_STORE}">{escape(c['ui']['download'])}<span aria-hidden="true">↗</span></a><a class="button secondary" href="{path(locale, 'support')}">{escape(h['primary'])}</a></div></div>
+  <div class="hero-copy"><p class="eyebrow">P’s Pocket</p><h1 id="page-title" class="hero-title">{line_title(v['headline'])}</h1><p class="lead">{escape(h['lead'])}</p><div class="actions"><a class="app-store-badge" href="{APP_STORE}"><img src="/ps-pocket/assets/app-store/download-{APP_STORE_BADGES[locale]}.svg" alt="{escape(c['ui']['download'], quote=True)}" width="{120 if locale == 'en-US' else 109}" height="40"></a><a class="button secondary" href="{path(locale, 'support')}">{escape(h['primary'])}</a></div></div>
   <figure class="hero-visual"><div class="hero-stage">{promo_device('iphone-multi-screen-1.png', 'shell-rose hero-device-secondary')}{promo_device('iphone-screen.png', 'shell-honey hero-device-main', h['screen_alt'], eager=True)}</div><figcaption>{escape(h['screen_caption'])}</figcaption></figure>
 </section>
 <ul class="home-facts" aria-label="P’s Pocket">{facts}</ul>
