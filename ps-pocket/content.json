@@ -1,6 +1,6 @@
 {
   "base_url": "https://meetslink.app",
-  "updated": "2026-10-11",
+  "updated": "2026-10-25",
   "support_email": "supports@meetslink.app",
   "locales": {
     "zh-Hans": {
@@ -190,7 +190,7 @@
             "scope",
             "适用范围",
             [
-              "本政策由 P’s Pocket 开发团队提供，适用于 P’s Pocket 1.0 的 iPhone App、小组件，以及本网站的 /ps-pocket/ 页面。Meets Link 的其他页面和其他 App 有各自的隐私政策。",
+              "本政策由 P’s Pocket 开发团队提供，适用于 P’s Pocket 的 iPhone、iPad App、小组件，以及本网站的 /ps-pocket/ 页面。具体功能随 App 版本而异。Meets Link 的其他页面和其他 App 有各自的隐私政策。",
               "如果对本政策或数据处理有疑问，可以通过 [email] 联系我们。"
             ]
           ],
@@ -200,7 +200,8 @@
             [
               "App 在设备上处理你导入的固件、机子名称与外壳、游戏进度与即时状态、游戏中填写的名字或日期、宠物资料、好友记录、日记和收藏，以及 App 设置和教学进度。具体游戏记录取决于你使用的固件。",
               "App 还保存用于区分机子和设备的随机标识、文件校验值、备份状态和出借记录。这些标识用于恢复、校验与防止交接重复，不作为广告标识使用。",
-              "小组件通过系统共享存储读取同一台机子的状态和画面，按键后写回进度。这不是向开发团队上传数据。"
+              "小组件通过系统共享存储读取同一台机子的状态和画面，按键后写回进度。这不是向开发团队上传数据。",
+              "玩家资料中的昵称和生日月、日为选填，保存在本机，用于明信片署名及新机子首次开机设置；不记录出生年份，也不用于注册账号。PP吉养成助手、图鉴和成就根据本地游戏记录生成，不将游戏内容发送给联网 AI 服务。你生成的明信片及已写入的游戏记录可能包含相应资料，并可随分享、备份或交接离开本机。"
             ]
           ],
           [
@@ -234,8 +235,25 @@
             "权限与外部服务",
             [
               "附近联机和交接需要系统的本地网络授权；导入和文件夹备份只访问你通过文件选择器授权的文件或目录。你可以在系统设置中撤销本地网络权限，在 App 中关闭相关备份功能。",
-              "首发版本不请求相机、麦克风、通讯录、定位、照片库或宠物呼叫通知权限，也不请求跨 App 跟踪授权。小组件播放游戏声音不使用麦克风。",
+              "呼叫和归还提醒需要系统通知授权，可在系统或 App 设置中关闭；iOS 决定后台刷新与处理的时机，通知可能延迟或无法显示。App 不请求相机、麦克风、通讯录、定位或跨 App 跟踪权限。",
               "点击固件列表的 Web 搜索按钮后，系统浏览器会将预设搜索词和固件文件名发送给 Bing，不发送你的固件内容或存档。搜索服务按 [microsoft] 处理请求。Apple 可能根据你的系统隐私选择提供系统诊断或商店统计，适用 Apple 自身的规则。"
+            ]
+          ],
+          [
+            "photos",
+            "明信片、合照与照片",
+            [
+              "你可以使用当前角色或 PP吉的图像制作明信片。预览和生成均在本机进行；明信片可能包含角色图像、记录、日期及你选填的昵称。",
+              "仅在点击“存入照片”时，App 请求添加照片的权限，用于保存你生成的图片或实况照片；不会读取照片图库，也不调用相机或麦克风。拒绝授权后仍可预览和通过系统分享。分享内容只交给你选择的接收方或服务，适用其自身的数据处理规则。"
+            ]
+          ],
+          [
+            "diagnostics",
+            "诊断报告",
+            [
+              "App 在本机轮换保留有限的运行错误和后台执行记录；系统提供时，也会保留此 App 的崩溃和卡顿记录。报告可包含 App 与系统版本、设备型号、语言、相关设置、通知授权状态、音频输出类型、操作时间与处理耗时，以及用于关联记录的机子标识。不会导出磁盘剩余空间或系统开机时长。",
+              "你主动生成报告时，可以选择是否附带系统故障记录及一台相关机子的原始存档。存档可能含游戏昵称、好友记录、游戏进度、机子及交接标识和固件字节；损坏或不完整的文件也可能原样保留，以便排查。不会另外附上完整固件文件、其他机子的完整存档、玩家资料设置、照片图库或备份授权。",
+              "报告不会自动上传。你可以通过系统分享自行保存或发送；只有你选择发送给开发团队后，我们才会收到。仅用于排查、回复和跟进问题，不用于广告、跨 App 跟踪或出售。临时报告在分享完成或取消后清理；异常中断留下、超过一天的临时副本在后续启动时清理。本机日志按大小和数量上限轮换。"
             ]
           ],
           [
@@ -252,7 +270,8 @@
             [
               "本地进度保留至你删除机子或移除 App；系统备份、已有外部备份和其他设备持有的副本可能继续存在。整体恢复也可能为安全保留恢复前的数据。需要彻底删除时，应同时管理这些副本。",
               "在储物柜长按整理并确认，可以删除符合条件的机子；借入或未归还的机子不能直接删除。未被机子使用的已导入固件，可在“设置 → 游戏固件”移除。",
-              "要删除 iCloud 副本，可在 Apple 提供的 iCloud 存储管理中管理 P’s Pocket 数据；额外文件夹的副本可在“文件”或对应服务中删除。为避免重新生成备份，请先关闭 App 的自动备份。开发团队无法远程删除你或其他用户设备、私人 iCloud 账号或文件服务中的资料。"
+              "要删除 iCloud 副本，可在 Apple 提供的 iCloud 存储管理中管理 P’s Pocket 数据；额外文件夹的副本可在“文件”或对应服务中删除。为避免重新生成备份，请先关闭 App 的自动备份。开发团队无法远程删除你或其他用户设备、私人 iCloud 账号或文件服务中的资料。",
+              "你可以在“设置 → 玩家资料”清空昵称和生日。删除机子后，全局图鉴的已解锁记录与历史足迹可能继续保留；移除 App 可清除其本机数据，但不会自动删除已有备份、分享出去的报告或已存入照片的图片。支持资料的查阅、更正和删除请求可通过 [email] 提出。"
             ]
           ],
           [
@@ -467,7 +486,7 @@
             "scope",
             "適用範圍",
             [
-              "本政策由 P’s Pocket 開發團隊提供，適用於 P’s Pocket 1.0 的 iPhone App、小工具，以及本網站的 /ps-pocket/ 頁面。Meets Link 的其他頁面和其他 App 有各自的私隱政策。",
+              "本政策由 P’s Pocket 開發團隊提供，適用於 P’s Pocket 的 iPhone、iPad App、小工具，以及本網站的 /ps-pocket/ 頁面。具體功能因 App 版本而異。Meets Link 的其他頁面和其他 App 有各自的私隱政策。",
               "如果對本政策或資料處理有疑問，可以透過 [email] 聯絡我們。"
             ]
           ],
@@ -477,7 +496,8 @@
             [
               "App 在裝置上處理你載入的韌體、機子名稱與外殼、遊戲進度與即時狀態、遊戲中填寫的名字或日期、寵物資料、好友紀錄、日記和收藏，以及 App 設定和教學進度。具體遊戲紀錄取決於你使用的韌體。",
               "App 還儲存用於區分機子和裝置的隨機識別碼、檔案驗證值、備份狀態和出借紀錄。這些識別碼用於恢復、驗證與防止交接重複，不作為廣告識別碼使用。",
-              "小工具透過系統共用儲存空間讀取同一台機子的狀態和畫面，按鍵後寫回進度。這不是向開發團隊上傳資料。"
+              "小工具透過系統共用儲存空間讀取同一台機子的狀態和畫面，按鍵後寫回進度。這不是向開發團隊上傳資料。",
+              "玩家資料中的暱稱和生日月份、日期為選填，儲存在本機，用於明信片署名及新機子首次開機設定；不記錄出生年份，也不用於註冊帳戶。PP吱養成助手、圖鑑和成就根據本機遊戲紀錄產生，不會把遊戲內容傳送至網上 AI 服務。你產生的明信片及已寫入的遊戲紀錄可能包含相應資料，並可隨分享、備份或交接離開本機。"
             ]
           ],
           [
@@ -511,8 +531,25 @@
             "權限與外部服務",
             [
               "附近連線和交接需要系統的區域網路授權；載入和資料夾備份只存取你透過檔案選擇器授權的檔案或目錄。你可以在系統設定中撤銷區域網路權限，在 App 中關閉相關備份功能。",
-              "首發版本不要求相機、麥克風、聯絡人、定位、照片圖庫或寵物呼叫通知權限，也不要求跨 App 追蹤授權。小工具播放遊戲聲音不使用麥克風。",
+              "呼叫和歸還提醒需要系統通知授權，可在系統或 App 設定中關閉；iOS 決定背景重新整理與處理的時機，通知可能延遲或無法顯示。App 不會要求相機、咪高峰、通訊錄、位置或跨 App 追蹤權限。",
               "點擊韌體列表的 Web 搜尋按鈕後，系統瀏覽器會將預設搜尋詞和韌體檔名傳給 Bing，不傳送你的韌體內容或存檔。搜尋服務依 [microsoft] 處理請求。Apple 可能依據你的系統私隱選擇提供系統診斷或商店統計，適用 Apple 本身的規則。"
+            ]
+          ],
+          [
+            "photos",
+            "明信片、合照與照片",
+            [
+              "你可以使用目前角色或 PP吱的圖像製作明信片。預覽和產生均在本機進行；明信片可能包含角色圖像、紀錄、日期及你選填的暱稱。",
+              "只有點選「存入照片」時，App 才會要求加入照片的權限，用於儲存你產生的圖片或原況照片；不會讀取照片圖庫，也不會使用相機或咪高峰。拒絕授權後仍可預覽及透過系統分享。分享內容只交給你選擇的接收方或服務，適用其自身的資料處理規則。"
+            ]
+          ],
+          [
+            "diagnostics",
+            "診斷報告",
+            [
+              "App 在本機輪替保留有限的執行錯誤和背景執行紀錄；系統提供時，也會保留此 App 的當機和停頓紀錄。報告可包含 App 與系統版本、裝置型號、語言、相關設定、通知授權狀態、音訊輸出類型、操作時間與處理耗時，以及用於關聯紀錄的機子識別碼。不會匯出磁碟剩餘空間或系統開機時長。",
+              "你主動產生報告時，可以選擇是否附帶系統故障紀錄及一台相關機子的原始存檔。存檔可能包含遊戲暱稱、好友紀錄、遊戲進度、機子及交接識別碼和韌體位元組；損壞或不完整的檔案也可能原樣保留，以便排查。不會另外附上完整韌體檔案、其他機子的完整存檔、玩家資料設定、照片圖庫或備份授權。",
+              "報告不會自動上傳。你可以透過系統分享自行儲存或傳送；只有你選擇傳送給開發團隊後，我們才會收到。只用於排查、回覆和跟進問題，不用於廣告、跨 App 追蹤或出售。暫存報告在分享完成或取消後清理；異常中斷留下、超過一天的暫存副本會在之後啟動時清理。本機日誌按大小和數量上限輪替。"
             ]
           ],
           [
@@ -529,7 +566,8 @@
             [
               "本機進度保留至你刪除機子或移除 App；系統備份、已有外部備份和其他裝置持有的副本可能繼續存在。整體恢復也可能為安全保留恢復前的資料。需要徹底刪除時，應同時管理這些副本。",
               "在儲物櫃長按整理並確認，可以刪除符合條件的機子；借入或未歸還的機子不能直接刪除。未被機子使用的已載入韌體，可在「設定 → 遊戲韌體」移除。",
-              "要刪除 iCloud 副本，可在 Apple 提供的 iCloud 儲存空間管理中管理 P’s Pocket 資料；額外資料夾的副本可在「檔案」或對應服務中刪除。為避免重新產生備份，請先關閉 App 的自動備份。開發團隊無法遠端刪除你或其他使用者裝置、私人 iCloud 帳號或檔案服務中的資料。"
+              "要刪除 iCloud 副本，可在 Apple 提供的 iCloud 儲存空間管理中管理 P’s Pocket 資料；額外資料夾的副本可在「檔案」或對應服務中刪除。為避免重新產生備份，請先關閉 App 的自動備份。開發團隊無法遠端刪除你或其他使用者裝置、私人 iCloud 帳號或檔案服務中的資料。",
+              "你可以在「設定 → 玩家資料」清空暱稱和生日。刪除機子後，全域圖鑑的已解鎖紀錄與歷史足跡可能繼續保留；移除 App 可清除其本機資料，但不會自動刪除已有備份、分享出去的報告或已儲存到照片的圖片。如需查閱、更正或刪除支援資料，可透過 [email] 提出。"
             ]
           ],
           [
@@ -744,7 +782,7 @@
             "scope",
             "適用範圍",
             [
-              "本政策由 P’s Pocket 開發團隊提供，適用於 P’s Pocket 1.0 的 iPhone App、小工具，以及本網站的 /ps-pocket/ 頁面。Meets Link 的其他頁面和其他 App 有各自的隱私權政策。",
+              "本政策由 P’s Pocket 開發團隊提供，適用於 P’s Pocket 的 iPhone、iPad App、小工具，以及本網站的 /ps-pocket/ 頁面。具體功能依 App 版本而異。Meets Link 的其他頁面和其他 App 有各自的隱私權政策。",
               "如果對本政策或資料處理有疑問，可以透過 [email] 聯絡我們。"
             ]
           ],
@@ -754,7 +792,8 @@
             [
               "App 在裝置上處理你匯入的韌體、機子名稱與外殼、遊戲進度與即時狀態、遊戲中填寫的名字或日期、寵物資料、好友紀錄、日記和收藏，以及 App 設定和教學進度。具體遊戲紀錄取決於你使用的韌體。",
               "App 還儲存用於區分機子和裝置的隨機識別碼、檔案驗證值、備份狀態和出借紀錄。這些識別碼用於恢復、驗證與防止交接重複，不作為廣告識別碼使用。",
-              "小工具透過系統共用儲存空間讀取同一台機子的狀態和畫面，按鍵後寫回進度。這不是向開發團隊上傳資料。"
+              "小工具透過系統共用儲存空間讀取同一台機子的狀態和畫面，按鍵後寫回進度。這不是向開發團隊上傳資料。",
+              "玩家資料中的暱稱和生日月份、日期為選填，儲存在本機，用於明信片署名及新機子首次開機設定；不記錄出生年份，也不用於註冊帳號。PP吉養成助手、圖鑑和成就根據本機遊戲紀錄產生，不會將遊戲內容傳送到線上 AI 服務。你產生的明信片及已寫入的遊戲紀錄可能包含相應資料，並可隨分享、備份或交接離開本機。"
             ]
           ],
           [
@@ -788,8 +827,25 @@
             "權限與外部服務",
             [
               "附近連線和交接需要系統的區域網路授權；匯入和資料夾備份只存取你透過檔案選擇器授權的檔案或目錄。你可以在系統設定中撤銷區域網路權限，在 App 中關閉相關備份功能。",
-              "首發版本不要求相機、麥克風、聯絡人、定位、照片圖庫或寵物呼叫通知權限，也不要求跨 App 追蹤授權。小工具播放遊戲聲音不使用麥克風。",
+              "呼叫和歸還提醒需要系統通知授權，可在系統或 App 設定中關閉；iOS 決定背景重新整理與處理的時機，通知可能延遲或無法顯示。App 不會要求相機、麥克風、聯絡人、位置或跨 App 追蹤權限。",
               "點擊韌體列表的 Web 搜尋按鈕後，系統瀏覽器會將預設搜尋詞和韌體檔名傳給 Bing，不傳送你的韌體內容或存檔。搜尋服務依 [microsoft] 處理請求。Apple 可能依據你的系統隱私選擇提供系統診斷或商店統計，適用 Apple 本身的規則。"
+            ]
+          ],
+          [
+            "photos",
+            "明信片、合照與照片",
+            [
+              "你可以使用目前角色或 PP吉的圖像製作明信片。預覽和產生均在本機進行；明信片可能包含角色圖像、紀錄、日期及你選填的暱稱。",
+              "只有點選「存入照片」時，App 才會要求加入照片的權限，用於儲存你產生的圖片或原況照片；不會讀取照片圖庫，也不會使用相機或麥克風。拒絕授權後仍可預覽及透過系統分享。分享內容只交給你選擇的接收方或服務，適用其自身的資料處理規則。"
+            ]
+          ],
+          [
+            "diagnostics",
+            "診斷報告",
+            [
+              "App 在本機輪替保留有限的執行錯誤和背景執行紀錄；系統提供時，也會保留此 App 的當機和停頓紀錄。報告可包含 App 與系統版本、裝置型號、語言、相關設定、通知授權狀態、音訊輸出類型、操作時間與處理耗時，以及用於關聯紀錄的機子識別碼。不會匯出磁碟剩餘空間或系統開機時長。",
+              "你主動產生報告時，可以選擇是否附帶系統故障紀錄及一台相關機子的原始存檔。存檔可能包含遊戲暱稱、好友紀錄、遊戲進度、機子及交接識別碼和韌體位元組；損壞或不完整的檔案也可能原樣保留，以便排查。不會另外附上完整韌體檔案、其他機子的完整存檔、玩家資料設定、照片圖庫或備份授權。",
+              "報告不會自動上傳。你可以透過系統分享自行儲存或傳送；只有你選擇傳送給開發團隊後，我們才會收到。僅用於排查、回覆和跟進問題，不用於廣告、跨 App 追蹤或出售。暫存報告在分享完成或取消後清理；異常中斷留下、超過一天的暫存副本會在之後啟動時清理。本機日誌按大小和數量上限輪替。"
             ]
           ],
           [
@@ -806,7 +862,8 @@
             [
               "本機進度保留至你刪除機子或移除 App；系統備份、已有外部備份和其他裝置持有的副本可能繼續存在。整體恢復也可能為安全保留恢復前的資料。需要徹底刪除時，應同時管理這些副本。",
               "在儲物櫃長按整理並確認，可以刪除符合條件的機子；借入或未歸還的機子不能直接刪除。未被機子使用的已匯入韌體，可在「設定 → 遊戲韌體」移除。",
-              "要刪除 iCloud 副本，可在 Apple 提供的 iCloud 儲存空間管理中管理 P’s Pocket 資料；額外資料夾的副本可在「檔案」或對應服務中刪除。為避免重新產生備份，請先關閉 App 的自動備份。開發團隊無法遠端刪除你或其他使用者裝置、私人 iCloud 帳號或檔案服務中的資料。"
+              "要刪除 iCloud 副本，可在 Apple 提供的 iCloud 儲存空間管理中管理 P’s Pocket 資料；額外資料夾的副本可在「檔案」或對應服務中刪除。為避免重新產生備份，請先關閉 App 的自動備份。開發團隊無法遠端刪除你或其他使用者裝置、私人 iCloud 帳號或檔案服務中的資料。",
+              "你可以在「設定 → 玩家資料」清空暱稱和生日。刪除機子後，全域圖鑑的已解鎖紀錄與歷史足跡可能繼續保留；移除 App 可清除其本機資料，但不會自動刪除已有備份、分享出去的報告或已儲存到照片的圖片。支援資料的查閱、更正及刪除請求可透過 [email] 提出。"
             ]
           ],
           [
@@ -1021,7 +1078,7 @@
             "scope",
             "Scope and contact",
             [
-              "This policy is provided by the P’s Pocket development team. It covers the P’s Pocket 1.0 iPhone app, its widgets, and the /ps-pocket/ pages on this website. Other Meets Link pages and apps have their own policies.",
+              "This policy is provided by the P’s Pocket development team and covers the P’s Pocket iPhone and iPad app, its widgets, and this website’s /ps-pocket/ pages. Available features vary by app version. Other Meets Link pages and apps have their own privacy policies.",
               "Contact us at [email] with questions about this policy or how data is handled."
             ]
           ],
@@ -1031,7 +1088,8 @@
             [
               "The app processes imported firmware, device names and shells, game progress and live state, names or dates entered in the game, pet details, friend records, diaries, collections, app preferences, and tutorial progress on your device. The game records available depend on the firmware you use.",
               "It also stores randomly generated device and instance identifiers, file checksums, backup status, and loan records. These support restoration, integrity checks, and prevention of duplicate handoffs; they are not advertising identifiers.",
-              "Widgets read the same device’s state and display through system shared storage and save progress after button presses. This does not upload data to the development team."
+              "Widgets read the same device’s state and display through system shared storage and save progress after button presses. This does not upload data to the development team.",
+              "Your nickname and birthday month and day are optional. They are stored locally for postcard signatures and initial setup of new pet machines. We do not record your birth year or use these details to register an account. Pocochi’s care assistant, album, and achievements use local game records; game content is not sent to an online AI service. Cards you generate and details written into a game may contain this information and leave your device through sharing, backup, or handoff."
             ]
           ],
           [
@@ -1065,8 +1123,25 @@
             "Permissions and external services",
             [
               "Nearby multiplayer and handoffs require Local Network permission. Imports and folder backups access only files or folders you authorize in the system picker. You can revoke Local Network permission in system settings and turn off relevant backup features in the app.",
-              "The first release does not request camera, microphone, contacts, location, photo library, pet call notification, or cross-app tracking permission. Playing game sound through widgets does not use the microphone.",
+              "Call and return reminders require notification permission, which you can turn off in system or app settings. iOS controls when background refresh and processing run, so notifications may be delayed or unavailable. The app does not request camera, microphone, contacts, location, or cross-app tracking permission.",
               "If you tap the firmware list’s web search button, your browser sends predefined search terms and firmware filenames to Bing, not your firmware contents or saved games. The [microsoft] applies to those requests. Apple may provide system diagnostics or store statistics according to your system privacy choices and Apple’s own rules."
+            ]
+          ],
+          [
+            "photos",
+            "Postcards, group photos, and Photos",
+            [
+              "You can make a postcard using your current character or Pocochi. Previews and image generation happen on your device. Cards may contain character artwork, game records, dates, and the optional nickname you entered.",
+              "Only when you tap Save to Photos does the app request add-only photo access to save your generated image or Live Photo. It does not read your photo library or use the camera or microphone. You can still preview and use system sharing if you decline permission. Shared content goes only to the recipient or service you choose, under that recipient’s or service’s own data practices."
+            ]
+          ],
+          [
+            "diagnostics",
+            "Diagnostic reports",
+            [
+              "The app keeps limited, rotating records of local errors and background activity. When provided by the system, it also stores crash and hang diagnostics for this app. Reports may include app and system versions, device model, language, relevant settings, notification authorization, audio output types, event times and processing durations, and machine identifiers used to correlate records. Reports do not export free disk space or system uptime.",
+              "When you choose to generate a report, you can include or exclude system diagnostics and the raw save of one related pet machine. Saves may contain in-game names, friend records, game progress, machine and handoff identifiers, and firmware bytes. Damaged or incomplete files may be preserved unchanged to investigate a problem. No separate complete firmware file, other machine’s full save, player-profile settings, photo library, or backup-access authorization is attached.",
+              "Reports are not uploaded automatically. You choose where to save or send them using system sharing; the development team receives a report only if you send it to us. We use it only to investigate, respond to, and follow up on the issue, not for advertising, cross-app tracking, or sale. Temporary reports are removed after sharing finishes or is cancelled. Interrupted temporary exports older than one day are cleaned up on a later launch. Local logs rotate within size and count limits."
             ]
           ],
           [
@@ -1083,7 +1158,8 @@
             [
               "Local progress remains until you delete a device or remove the app. System backups, external copies, and copies on other devices may remain. A full restore may also preserve the previous data for safety. Manage these copies too if you want to delete everything.",
               "Touch and hold in the cabinet, then confirm deletion to remove an eligible device. Borrowed devices and devices still on loan cannot be deleted directly. Remove unused imported firmware in Settings → Game Firmware.",
-              "To delete iCloud copies, manage P’s Pocket data using Apple’s iCloud storage controls. Delete additional folder copies through Files or the service concerned. Turn off automatic backup first to avoid creating new copies. We cannot remotely delete data on your or someone else’s device, private iCloud account, or file service."
+              "To delete iCloud copies, manage P’s Pocket data using Apple’s iCloud storage controls. Delete additional folder copies through Files or the service concerned. Turn off automatic backup first to avoid creating new copies. We cannot remotely delete data on your or someone else’s device, private iCloud account, or file service.",
+              "You can clear your nickname and birthday in Settings → Player Profile. Unlocked entries and historical events in the overall album may remain after a machine is deleted. Removing the app clears its local data, but does not automatically delete existing backups, reports you shared, or images saved to Photos. To request access to, correction of, or deletion of support information you sent us, contact [email]."
             ]
           ],
           [
